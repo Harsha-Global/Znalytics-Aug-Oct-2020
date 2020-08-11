@@ -1,0 +1,6 @@
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\bin\Debug\PrePostExample.exe.config
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\bin\Debug\PrePostExample.exe
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\bin\Debug\PrePostExample.pdb
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\obj\Debug\PrePostExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\obj\Debug\PrePostExample.exe
+C:\Users\Harsha\source\repos\PrePostExample\PrePostExample\obj\Debug\PrePostExample.pdb

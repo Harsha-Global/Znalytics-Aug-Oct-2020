@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.pdb
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.exe
+C:\Users\Harsha\source\repos\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.pdb

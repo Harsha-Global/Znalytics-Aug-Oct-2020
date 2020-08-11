@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\bin\Debug\PrimitiveTypesExample.exe.config
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\bin\Debug\PrimitiveTypesExample.exe
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\bin\Debug\PrimitiveTypesExample.pdb
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\obj\Debug\PrimitiveTypesExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\obj\Debug\PrimitiveTypesExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\obj\Debug\PrimitiveTypesExample.exe
+C:\Users\Harsha\source\repos\PrimitiveTypesExample\PrimitiveTypesExample\obj\Debug\PrimitiveTypesExample.pdb
