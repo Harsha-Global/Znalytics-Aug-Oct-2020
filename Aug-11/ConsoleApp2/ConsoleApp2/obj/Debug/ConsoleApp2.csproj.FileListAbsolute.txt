@@ -5,3 +5,13 @@ C:\Users\Harsha\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.cspro
 C:\Users\Harsha\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 C:\Users\Harsha\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\Harsha\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\bin\Debug\ClassLibrary1.dll
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\bin\Debug\ClassLibrary1.pdb
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Znalytics-Aug-Oct-2020\Aug-11\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

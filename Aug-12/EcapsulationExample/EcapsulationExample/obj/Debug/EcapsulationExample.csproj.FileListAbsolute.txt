@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\bin\Debug\EcapsulationExample.exe.config
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\bin\Debug\EcapsulationExample.exe
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\bin\Debug\EcapsulationExample.pdb
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\obj\Debug\EcapsulationExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\obj\Debug\EcapsulationExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\obj\Debug\EcapsulationExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\obj\Debug\EcapsulationExample.exe
+C:\Users\Harsha\source\repos\EcapsulationExample\EcapsulationExample\obj\Debug\EcapsulationExample.pdb

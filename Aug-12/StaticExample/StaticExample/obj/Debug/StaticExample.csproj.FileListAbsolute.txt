@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\bin\Debug\StaticExample.exe.config
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\bin\Debug\StaticExample.exe
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\bin\Debug\StaticExample.pdb
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\obj\Debug\StaticExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\obj\Debug\StaticExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\obj\Debug\StaticExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\obj\Debug\StaticExample.exe
+C:\Users\Harsha\source\repos\StaticExample\StaticExample\obj\Debug\StaticExample.pdb
