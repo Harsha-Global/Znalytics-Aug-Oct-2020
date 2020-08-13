@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\bin\Debug\DefaultArgumentExample.exe.config
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\bin\Debug\DefaultArgumentExample.exe
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\bin\Debug\DefaultArgumentExample.pdb
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\obj\Debug\DefaultArgumentExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\obj\Debug\DefaultArgumentExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\obj\Debug\DefaultArgumentExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\obj\Debug\DefaultArgumentExample.exe
+C:\Users\Harsha\source\repos\DefaultArgumentExample\DefaultArgumentExample\obj\Debug\DefaultArgumentExample.pdb

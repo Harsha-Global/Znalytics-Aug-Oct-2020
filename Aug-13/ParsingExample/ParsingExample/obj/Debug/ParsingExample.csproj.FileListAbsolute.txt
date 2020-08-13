@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\bin\Debug\ParsingExample.exe.config
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\bin\Debug\ParsingExample.exe
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\bin\Debug\ParsingExample.pdb
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\obj\Debug\ParsingExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\obj\Debug\ParsingExample.exe
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\obj\Debug\ParsingExample.pdb
+C:\Users\Harsha\source\repos\ParsingExample\ParsingExample\obj\Debug\ParsingExample.csprojAssemblyReference.cache
