@@ -28,7 +28,6 @@ public class Customer
         Email = email;
     }
 
-
     /// <summary>
     /// Parameterless constructor
     /// </summary>
