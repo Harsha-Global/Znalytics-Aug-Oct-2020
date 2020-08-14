@@ -1,5 +1,4 @@
-﻿using System.Windows.Markup;
-/// <summary>
+﻿/// <summary>
 /// Represents customer
 /// </summary>
 public class Customer
@@ -18,8 +17,11 @@ public class Customer
         //_customerName = customerName;
         //_phone = phone;
 
-        SetCustomerName(customerName);
-        SetPhone(phone);
+        //SetCustomerName(customerName);
+        //SetPhone(phone);
+
+        CustomerName = customerName;
+        Phone = phone;
     }
 
 
@@ -31,39 +33,43 @@ public class Customer
         //not initializing
     }
 
+
     /// <summary>
-    /// Sets value into CustomerName
+    /// Represents name of the customer
     /// </summary>
-    /// <param name="customerName">Name of the customer</param>
-    public void SetCustomerName(string customerName)
+    public string CustomerName
     {
-        _customerName = customerName;
+        set
+        {
+            //Name should be less than 30 characters
+            if (value.Length <= 30)
+            {
+                _customerName = value;
+            }
+        }
+
+        get
+        {
+            return _customerName;
+        }
     }
 
     /// <summary>
-    /// Returns value of _customerName
+    /// Phone number of the customer
     /// </summary>
-    /// <returns>Name of the customer</returns>
-    public string GetCustomerName()
+    public string Phone
     {
-        return _customerName;
-    }
-
-    /// <summary>
-    /// Sets value into phone
-    /// </summary>
-    /// <param name="phone">Phone number of the customer</param>
-    public void SetPhone(string phone)
-    {
-        _phone = phone;
-    }
-
-    /// <summary>
-    /// Returns Phone number of customer
-    /// </summary>
-    /// <returns>Phone number</returns>
-    public string GetPhone()
-    {
-        return _phone;
+        set
+        {
+            //Phone number should contain 10 digits only
+            if (value.Length == 10)
+            {
+                _phone = value;
+            }
+        }
+        get
+        {
+            return _phone;
+        }
     }
 }
