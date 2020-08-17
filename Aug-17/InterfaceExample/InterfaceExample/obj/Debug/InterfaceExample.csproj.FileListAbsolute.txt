@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe.config
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.pdb
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.exe
+C:\Users\Harsha\source\repos\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.pdb
