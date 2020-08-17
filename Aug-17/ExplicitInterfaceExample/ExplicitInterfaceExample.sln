@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitInterfaceExample", "ExplicitInterfaceExample\ExplicitInterfaceExample.csproj", "{476B7FA2-7D52-466E-9C12-2EB225260947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476B7FA2-7D52-466E-9C12-2EB225260947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476B7FA2-7D52-466E-9C12-2EB225260947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476B7FA2-7D52-466E-9C12-2EB225260947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476B7FA2-7D52-466E-9C12-2EB225260947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21733D63-62CA-4446-B3C4-4E5ACE5E1AA0}
+	EndGlobalSection
+EndGlobal
