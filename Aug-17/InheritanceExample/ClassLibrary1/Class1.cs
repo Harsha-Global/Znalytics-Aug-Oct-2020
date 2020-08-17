@@ -1,4 +1,4 @@
-﻿public class Person
+﻿public abstract class Person
 {
     private string _personName;
 
@@ -28,6 +28,7 @@
     {
         System.Console.WriteLine("Person name: " + PersonName);
     }
+
 }
 public class Employee : Person
 {
@@ -39,7 +40,7 @@ public class Employee : Person
     }
 
     //child class's method
-    public override void Display(int x)
+    public override sealed void Display(int x)
     {
         base.Display(x); //calls Person.Display
         System.Console.WriteLine("Emp ID: " + EmpID);

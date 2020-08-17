@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\bin\Debug\AbstractClassesExample.exe.config
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\bin\Debug\AbstractClassesExample.exe
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\bin\Debug\AbstractClassesExample.pdb
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\obj\Debug\AbstractClassesExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\obj\Debug\AbstractClassesExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\obj\Debug\AbstractClassesExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\obj\Debug\AbstractClassesExample.exe
+C:\Users\Harsha\source\repos\AbstractClassesExample\AbstractClassesExample\obj\Debug\AbstractClassesExample.pdb
