@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\bin\Debug\PartialMethodsExample.exe.config
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\bin\Debug\PartialMethodsExample.exe
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\bin\Debug\PartialMethodsExample.pdb
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\obj\Debug\PartialMethodsExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\obj\Debug\PartialMethodsExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\obj\Debug\PartialMethodsExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\obj\Debug\PartialMethodsExample.exe
+C:\Users\Harsha\source\repos\PartialMethodsExample\PartialMethodsExample\obj\Debug\PartialMethodsExample.pdb

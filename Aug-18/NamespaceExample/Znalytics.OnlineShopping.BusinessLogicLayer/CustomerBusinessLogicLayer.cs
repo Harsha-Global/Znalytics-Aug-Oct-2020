@@ -5,7 +5,7 @@ namespace Znalytics.OnlineShopping.BusinessLogicLayer
 {
     public class CustomerBusinessLogicLayer: ICustomerBusinessLogicLayer
     {
-        private ICustomerDataAccessLayer cdal;
+        private ICustomerDataAccessLayer cdal = null;
 
         public CustomerBusinessLogicLayer()
         {

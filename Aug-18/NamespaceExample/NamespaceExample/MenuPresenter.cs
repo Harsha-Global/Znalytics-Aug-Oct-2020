@@ -58,6 +58,18 @@ namespace Znalytics.OnlineShopping.PresentationLayer
 
             ICustomerBusinessLogicLayer customerBusinessLogicLayer = new CustomerBusinessLogicLayer();
             customerBusinessLogicLayer.AddCustomer(customer); //call BL
+
+            Console.WriteLine(customer.GetType()); //Output: Znalytics.OnlineShopping.CustomersModule.Entities.Customer
+
+            Console.WriteLine(customer.ToString()); //Output: Znalytics.OnlineShopping.CustomersModule.Entities.Customer
+
+            Console.WriteLine(customer.GetHashCode()); //Output: 46104728
+
+
+            Customer customer1 = new Customer() { CustomerName = "John", Email = "john@gmail.com" };
+            Customer customer2 = new Customer() { CustomerName = "John", Email = "john@gmail.com" };
+            
+            Console.WriteLine(customer1.Equals(customer2)); //Output: True 
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\bin\Debug\EnumerationsExample.exe.config
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\bin\Debug\EnumerationsExample.exe
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\bin\Debug\EnumerationsExample.pdb
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\obj\Debug\EnumerationsExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\obj\Debug\EnumerationsExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\obj\Debug\EnumerationsExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\obj\Debug\EnumerationsExample.exe
+C:\Users\Harsha\source\repos\EnumerationsExample\EnumerationsExample\obj\Debug\EnumerationsExample.pdb

@@ -1,25 +1,28 @@
-﻿using System;
+﻿using static System.Console;
 
-namespace Znalytics.OnlineShopping.PresentationLayer
+namespace Znalytics
 {
-    class Program
+    namespace OnlineShopping.PresentationLayer
     {
-        static void Main()
+        class Program
         {
-            //Login
-            Console.WriteLine("ONLINE SHOPPING");
-            Console.WriteLine("==================================");
-            Console.Write("\nUsername:");
-            string userName = Console.ReadLine();
-            System.Console.Write("Password:");
-            string password = Console.ReadLine();
-
-            if (userName == "system" && password == "manager")
+            static void Main()
             {
-                MenuPresenter.Menu();
-            }
+                //Login
+                WriteLine("ONLINE SHOPPING");
+                WriteLine("==================================");
+                Write("\nUsername:");
+                string userName = ReadLine();
+                System.Console.Write("Password:");
+                string password = ReadLine();
 
-            Console.ReadKey();
+                if (userName == "system" && password == "manager")
+                {
+                    MenuPresenter.Menu();
+                }
+
+                ReadKey();
+            }
         }
     }
 }

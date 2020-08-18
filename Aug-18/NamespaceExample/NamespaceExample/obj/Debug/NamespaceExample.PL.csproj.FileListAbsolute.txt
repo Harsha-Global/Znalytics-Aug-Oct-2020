@@ -1,0 +1,14 @@
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\NamespaceExample.exe.config
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\NamespaceExample.exe
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\NamespaceExample.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.BusinessLogicLayer.dll
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.Entities.dll
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.DataAccessLayer.dll
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.BusinessLogicLayer.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.Entities.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\bin\Debug\Znalytics.OnlineShopping.DataAccessLayer.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\obj\Debug\NamespaceExample.PL.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\obj\Debug\NamespaceExample.PL.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\obj\Debug\NamespaceExample.PL.csproj.CopyComplete
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\obj\Debug\NamespaceExample.exe
+C:\Users\Harsha\source\repos\NamespaceExample\NamespaceExample\obj\Debug\NamespaceExample.pdb

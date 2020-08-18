@@ -1,0 +1,6 @@
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\bin\Debug\Znalytics.OnlineShopping.Entities.dll
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\bin\Debug\Znalytics.OnlineShopping.Entities.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\obj\Debug\Znalytics.OnlineShopping.Entities.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\obj\Debug\Znalytics.OnlineShopping.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\obj\Debug\Znalytics.OnlineShopping.Entities.dll
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.Entities\obj\Debug\Znalytics.OnlineShopping.Entities.pdb

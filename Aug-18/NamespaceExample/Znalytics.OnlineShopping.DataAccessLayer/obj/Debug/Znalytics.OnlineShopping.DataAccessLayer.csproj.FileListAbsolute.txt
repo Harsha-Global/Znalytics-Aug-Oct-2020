@@ -1,0 +1,9 @@
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\bin\Debug\Znalytics.OnlineShopping.DataAccessLayer.dll
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\bin\Debug\Znalytics.OnlineShopping.DataAccessLayer.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\bin\Debug\Znalytics.OnlineShopping.Entities.dll
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\bin\Debug\Znalytics.OnlineShopping.Entities.pdb
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\obj\Debug\Znalytics.OnlineShopping.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\obj\Debug\Znalytics.OnlineShopping.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\obj\Debug\Znalytics.OnlineShopping.DataAccessLayer.csproj.CopyComplete
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\obj\Debug\Znalytics.OnlineShopping.DataAccessLayer.dll
+C:\Users\Harsha\source\repos\NamespaceExample\Znalytics.OnlineShopping.DataAccessLayer\obj\Debug\Znalytics.OnlineShopping.DataAccessLayer.pdb

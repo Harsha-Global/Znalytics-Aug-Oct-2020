@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\bin\Debug\StructuresExample.exe.config
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\bin\Debug\StructuresExample.exe
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\bin\Debug\StructuresExample.pdb
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\obj\Debug\StructuresExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\obj\Debug\StructuresExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\obj\Debug\StructuresExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\obj\Debug\StructuresExample.exe
+C:\Users\Harsha\source\repos\StructuresExample\StructuresExample\obj\Debug\StructuresExample.pdb
