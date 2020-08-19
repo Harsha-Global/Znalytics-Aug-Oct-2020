@@ -33,7 +33,7 @@ namespace ListExample
             //states.RemoveRange(4, 3);
 
             //RemoveAll
-            //states.RemoveAll(state => state.Contains("e") || state.Contains("j"));
+            //states.RemoveAll(state => state.Contains("e"));
 
             //Clear
             //states.Clear();
