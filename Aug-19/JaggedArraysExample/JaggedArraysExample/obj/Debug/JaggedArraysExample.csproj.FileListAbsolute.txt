@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\bin\Debug\JaggedArraysExample.exe.config
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\bin\Debug\JaggedArraysExample.exe
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\bin\Debug\JaggedArraysExample.pdb
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\obj\Debug\JaggedArraysExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\obj\Debug\JaggedArraysExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\obj\Debug\JaggedArraysExample.exe
+C:\Users\Harsha\source\repos\JaggedArraysExample\JaggedArraysExample\obj\Debug\JaggedArraysExample.pdb

@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\bin\Debug\CopyToExample.exe.config
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\bin\Debug\CopyToExample.exe
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\bin\Debug\CopyToExample.pdb
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\obj\Debug\CopyToExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\obj\Debug\CopyToExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\obj\Debug\CopyToExample.exe
+C:\Users\Harsha\source\repos\CopyToExample\CopyToExample\obj\Debug\CopyToExample.pdb
