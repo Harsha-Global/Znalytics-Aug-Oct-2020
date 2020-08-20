@@ -25,14 +25,23 @@ namespace CollectionOfObjectsExample
             {
                 employees.Add(new Employee() { EmployeeID = empID, EmployeeName = empName });
             }
-            
+
+
+            //IEnumerable
+            IEnumerable<Employee> employees2 = employees;
 
             //foreach
-            foreach (Employee emp in employees)
-            {
-                Console.WriteLine(emp.EmployeeID + ", " + emp.EmployeeName);
-            }
+            //foreach (Employee emp in employees2)
+            //{
+            //    Console.WriteLine(emp.EmployeeID + ", " + emp.EmployeeName);
+            //}
 
+            //IEnumerator
+            IEnumerator<Employee> employees3 = employees2.GetEnumerator();
+            while(employees3.MoveNext())
+            {
+                Console.WriteLine(employees3.Current.EmployeeID + ", " + employees3.Current.EmployeeName);
+            }
             Console.ReadKey();
         }
     }
