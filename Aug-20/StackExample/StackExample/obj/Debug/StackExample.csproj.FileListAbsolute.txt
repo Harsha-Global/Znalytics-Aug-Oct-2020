@@ -1,0 +1,6 @@
+C:\Users\Harsha\source\repos\StackExample\StackExample\bin\Debug\StackExample.exe.config
+C:\Users\Harsha\source\repos\StackExample\StackExample\bin\Debug\StackExample.exe
+C:\Users\Harsha\source\repos\StackExample\StackExample\bin\Debug\StackExample.pdb
+C:\Users\Harsha\source\repos\StackExample\StackExample\obj\Debug\StackExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\StackExample\StackExample\obj\Debug\StackExample.exe
+C:\Users\Harsha\source\repos\StackExample\StackExample\obj\Debug\StackExample.pdb

@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\bin\Debug\CollectionOfObjectsExample.exe.config
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\bin\Debug\CollectionOfObjectsExample.exe
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\bin\Debug\CollectionOfObjectsExample.pdb
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\obj\Debug\CollectionOfObjectsExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\obj\Debug\CollectionOfObjectsExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\obj\Debug\CollectionOfObjectsExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\obj\Debug\CollectionOfObjectsExample.exe
+C:\Users\Harsha\source\repos\CollectionOfObjectsExample\CollectionOfObjectsExample\obj\Debug\CollectionOfObjectsExample.pdb

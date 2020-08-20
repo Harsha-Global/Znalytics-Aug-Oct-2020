@@ -1,17 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 
-namespace DictionaryExample
+namespace HashtableExample
 {
     class Program
     {
         static void Main()
         {
-            //marks as Dictionary collection
-            Dictionary<string, int> marks = new Dictionary<string, int>() { { "Maths", 85 }, { "Physics", 81 }, { "English", 36 }, { "Chemistry", 65 } };
+            //marks as Hashtable collection
+            Hashtable marks = new Hashtable() { { "Maths", 85 }, { "Physics", 81 }, { "English", 36 }, { "Chemistry", false }, { "Other", 'A' } };
 
             marks["Maths"] = 90; //setting
-            Console.WriteLine(marks["Maths"]); //Output: 90 //getting
+            int mathsMarks = (int)marks["Maths"]; //not allowed
+            Console.WriteLine(mathsMarks); //Output: 90 //getting
             Console.WriteLine(marks.Count); //Output: 4
             Console.WriteLine(); //blank line
 
@@ -25,7 +26,17 @@ namespace DictionaryExample
             foreach (string key in marks.Keys)
             {
                 Console.WriteLine(key);
-                Console.WriteLine(marks[key]);
+                Console.WriteLine(key.GetHashCode());
+                if (marks[key].GetType() == typeof(bool))
+                {
+                    bool temp = (bool)marks[key];
+                    Console.WriteLine(temp);
+                }
+                else if (marks[key].GetType() == typeof(int))
+                {
+                    int temp = (int)marks[key];
+                    Console.WriteLine(temp);
+                }
             }
             Console.WriteLine();
 

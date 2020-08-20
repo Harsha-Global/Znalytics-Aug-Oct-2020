@@ -1,0 +1,6 @@
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\bin\Debug\Znalytics.EmpMgmt.Entities.dll
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\bin\Debug\Znalytics.EmpMgmt.Entities.pdb
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\obj\Debug\Znalytics.EmpMgmt.Entities.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\obj\Debug\Znalytics.EmpMgmt.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\obj\Debug\Znalytics.EmpMgmt.Entities.dll
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.Entities\obj\Debug\Znalytics.EmpMgmt.Entities.pdb

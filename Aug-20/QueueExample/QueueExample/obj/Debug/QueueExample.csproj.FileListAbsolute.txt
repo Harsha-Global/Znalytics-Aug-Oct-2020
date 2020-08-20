@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\bin\Debug\QueueExample.exe.config
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\bin\Debug\QueueExample.exe
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\bin\Debug\QueueExample.pdb
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\obj\Debug\QueueExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\obj\Debug\QueueExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\obj\Debug\QueueExample.exe
+C:\Users\Harsha\source\repos\QueueExample\QueueExample\obj\Debug\QueueExample.pdb
