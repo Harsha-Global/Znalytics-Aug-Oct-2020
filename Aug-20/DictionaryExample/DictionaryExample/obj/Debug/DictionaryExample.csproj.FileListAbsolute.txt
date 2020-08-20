@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\bin\Debug\DictionaryExample.exe.config
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\bin\Debug\DictionaryExample.exe
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\bin\Debug\DictionaryExample.pdb
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\obj\Debug\DictionaryExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\obj\Debug\DictionaryExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\obj\Debug\DictionaryExample.exe
+C:\Users\Harsha\source\repos\DictionaryExample\DictionaryExample\obj\Debug\DictionaryExample.pdb
