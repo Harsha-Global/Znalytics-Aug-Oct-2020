@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\bin\Debug\InnerClassesExample.exe.config
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\bin\Debug\InnerClassesExample.exe
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\bin\Debug\InnerClassesExample.pdb
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\obj\Debug\InnerClassesExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\obj\Debug\InnerClassesExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\obj\Debug\InnerClassesExample.exe
+C:\Users\Harsha\source\repos\InnerClassesExample\InnerClassesExample\obj\Debug\InnerClassesExample.pdb

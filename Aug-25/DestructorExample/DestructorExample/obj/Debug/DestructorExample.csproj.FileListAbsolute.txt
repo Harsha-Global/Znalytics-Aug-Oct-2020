@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\bin\Debug\DestructorExample.exe.config
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\bin\Debug\DestructorExample.exe
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\bin\Debug\DestructorExample.pdb
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\obj\Debug\DestructorExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\obj\Debug\DestructorExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\obj\Debug\DestructorExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\obj\Debug\DestructorExample.exe
+C:\Users\Harsha\source\repos\DestructorExample\DestructorExample\obj\Debug\DestructorExample.pdb

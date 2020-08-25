@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\bin\Debug\PatternMatchingExample.exe.config
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\bin\Debug\PatternMatchingExample.exe
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\bin\Debug\PatternMatchingExample.pdb
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\obj\Debug\PatternMatchingExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\obj\Debug\PatternMatchingExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\obj\Debug\PatternMatchingExample.exe
+C:\Users\Harsha\source\repos\PatternMatchingExample\PatternMatchingExample\obj\Debug\PatternMatchingExample.pdb
