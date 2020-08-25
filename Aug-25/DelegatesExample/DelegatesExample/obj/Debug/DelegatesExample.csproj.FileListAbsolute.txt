@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\bin\Debug\DelegatesExample.exe.config
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\bin\Debug\DelegatesExample.exe
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\bin\Debug\DelegatesExample.pdb
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\obj\Debug\DelegatesExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\obj\Debug\DelegatesExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\obj\Debug\DelegatesExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\obj\Debug\DelegatesExample.exe
+C:\Users\Harsha\source\repos\DelegatesExample\DelegatesExample\obj\Debug\DelegatesExample.pdb

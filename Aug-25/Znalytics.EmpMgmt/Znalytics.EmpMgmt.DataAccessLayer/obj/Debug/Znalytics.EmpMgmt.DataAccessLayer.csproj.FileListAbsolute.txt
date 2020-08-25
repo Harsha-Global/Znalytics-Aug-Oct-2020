@@ -1,0 +1,9 @@
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\bin\Debug\Znalytics.EmpMgmt.DataAccessLayer.dll
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\bin\Debug\Znalytics.EmpMgmt.DataAccessLayer.pdb
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\bin\Debug\Znalytics.EmpMgmt.Entities.dll
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\bin\Debug\Znalytics.EmpMgmt.Entities.pdb
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\obj\Debug\Znalytics.EmpMgmt.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\obj\Debug\Znalytics.EmpMgmt.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\obj\Debug\Znalytics.EmpMgmt.DataAccessLayer.csproj.CopyComplete
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\obj\Debug\Znalytics.EmpMgmt.DataAccessLayer.dll
+C:\Users\Harsha\source\repos\Znalytics.EmpMgmt\Znalytics.EmpMgmt.DataAccessLayer\obj\Debug\Znalytics.EmpMgmt.DataAccessLayer.pdb
