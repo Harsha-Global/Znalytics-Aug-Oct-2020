@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\bin\Debug\AnonymousTypesExample.exe.config
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\bin\Debug\AnonymousTypesExample.exe
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\bin\Debug\AnonymousTypesExample.pdb
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\obj\Debug\AnonymousTypesExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\obj\Debug\AnonymousTypesExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\obj\Debug\AnonymousTypesExample.exe
+C:\Users\Harsha\source\repos\AnonymousTypesExample\AnonymousTypesExample\obj\Debug\AnonymousTypesExample.pdb

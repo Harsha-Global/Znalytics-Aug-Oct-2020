@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\bin\Debug\AnonymousTypeArrays.exe.config
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\bin\Debug\AnonymousTypeArrays.exe
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\bin\Debug\AnonymousTypeArrays.pdb
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\obj\Debug\AnonymousTypeArrays.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\obj\Debug\AnonymousTypeArrays.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\obj\Debug\AnonymousTypeArrays.exe
+C:\Users\Harsha\source\repos\AnonymousTypeArrays\AnonymousTypeArrays\obj\Debug\AnonymousTypeArrays.pdb

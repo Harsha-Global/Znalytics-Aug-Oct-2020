@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\bin\Debug\EventsExample.exe.config
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\bin\Debug\EventsExample.exe
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\bin\Debug\EventsExample.pdb
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\bin\Debug\ClassLibrary1.dll
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\obj\Debug\EventsExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\obj\Debug\EventsExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\obj\Debug\EventsExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\obj\Debug\EventsExample.exe
+C:\Users\Harsha\source\repos\EventsExample\EventsExample\obj\Debug\EventsExample.pdb

@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\bin\Debug\EmailValidationExample.exe.config
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\bin\Debug\EmailValidationExample.exe
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\bin\Debug\EmailValidationExample.pdb
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\obj\Debug\EmailValidationExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\obj\Debug\EmailValidationExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\obj\Debug\EmailValidationExample.exe
+C:\Users\Harsha\source\repos\EmailValidationExample\EmailValidationExample\obj\Debug\EmailValidationExample.pdb
