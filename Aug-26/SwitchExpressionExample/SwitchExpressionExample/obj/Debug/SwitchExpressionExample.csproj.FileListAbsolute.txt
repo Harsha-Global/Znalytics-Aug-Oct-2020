@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\bin\Debug\SwitchExpressionExample.exe.config
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\bin\Debug\SwitchExpressionExample.exe
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\bin\Debug\SwitchExpressionExample.pdb
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\obj\Debug\SwitchExpressionExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\obj\Debug\SwitchExpressionExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\obj\Debug\SwitchExpressionExample.exe
+C:\Users\Harsha\source\repos\SwitchExpressionExample\SwitchExpressionExample\obj\Debug\SwitchExpressionExample.pdb
