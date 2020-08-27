@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\bin\Debug\DateDifferenceExample.exe.config
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\bin\Debug\DateDifferenceExample.exe
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\bin\Debug\DateDifferenceExample.pdb
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\obj\Debug\DateDifferenceExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\obj\Debug\DateDifferenceExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\obj\Debug\DateDifferenceExample.exe
+C:\Users\Harsha\source\repos\DateDifferenceExample\DateDifferenceExample\obj\Debug\DateDifferenceExample.pdb
