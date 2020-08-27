@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\bin\Debug\FileStreamExample.exe.config
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\bin\Debug\FileStreamExample.exe
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\bin\Debug\FileStreamExample.pdb
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\obj\Debug\FileStreamExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\obj\Debug\FileStreamExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\obj\Debug\FileStreamExample.exe
+C:\Users\Harsha\source\repos\FileStreamExample\FileStreamExample\obj\Debug\FileStreamExample.pdb

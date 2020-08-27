@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.exe.config
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.exe
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.pdb
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.exe
+C:\Users\Harsha\source\repos\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.pdb

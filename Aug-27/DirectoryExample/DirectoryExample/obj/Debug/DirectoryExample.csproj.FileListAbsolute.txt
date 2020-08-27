@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\bin\Debug\DirectoryExample.exe.config
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\bin\Debug\DirectoryExample.exe
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\bin\Debug\DirectoryExample.pdb
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\obj\Debug\DirectoryExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\obj\Debug\DirectoryExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\obj\Debug\DirectoryExample.exe
+C:\Users\Harsha\source\repos\DirectoryExample\DirectoryExample\obj\Debug\DirectoryExample.pdb

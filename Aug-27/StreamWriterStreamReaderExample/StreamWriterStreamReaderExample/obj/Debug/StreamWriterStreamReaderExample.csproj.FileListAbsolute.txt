@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\bin\Debug\StreamWriterStreamReaderExample.exe.config
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\bin\Debug\StreamWriterStreamReaderExample.exe
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\bin\Debug\StreamWriterStreamReaderExample.pdb
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\obj\Debug\StreamWriterStreamReaderExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\obj\Debug\StreamWriterStreamReaderExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\obj\Debug\StreamWriterStreamReaderExample.exe
+C:\Users\Harsha\source\repos\StreamWriterStreamReaderExample\StreamWriterStreamReaderExample\obj\Debug\StreamWriterStreamReaderExample.pdb
