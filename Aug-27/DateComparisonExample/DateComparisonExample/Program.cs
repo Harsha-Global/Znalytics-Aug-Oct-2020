@@ -34,6 +34,10 @@ namespace DateComparisonExample
                 Console.WriteLine();
                 Console.WriteLine(ex.Source);
             }
+            finally
+            {
+                Console.WriteLine("Thank you. Returning to Main menu");
+            }
 
             Console.ReadKey();
         }

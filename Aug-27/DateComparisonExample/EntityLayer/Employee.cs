@@ -20,7 +20,7 @@ namespace EntityLayer
                 }
                 else
                 {
-                    throw new EmployeeException("Date of birth should be less than " + eligibleDate.ToString("dd/M/yyyy"));
+                    throw new EmployeeException(nameof(DateOfBirth) + " should be less than " + eligibleDate.ToString("dd/M/yyyy"));
                 }
             }
             get
