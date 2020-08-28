@@ -1,0 +1,10 @@
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\bin\Debug\JsonSerializationExample.exe.config
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\bin\Debug\JsonSerializationExample.exe
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\bin\Debug\JsonSerializationExample.pdb
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\obj\Debug\JsonSerializationExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\obj\Debug\JsonSerializationExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\obj\Debug\JsonSerializationExample.csproj.CopyComplete
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\obj\Debug\JsonSerializationExample.exe
+C:\Users\Harsha\source\repos\JsonSerializationExample\JsonSerializationExample\obj\Debug\JsonSerializationExample.pdb

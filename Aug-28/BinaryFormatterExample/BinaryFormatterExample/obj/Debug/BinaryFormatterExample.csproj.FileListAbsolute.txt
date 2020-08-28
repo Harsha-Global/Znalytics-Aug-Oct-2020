@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\bin\Debug\BinaryFormatterExample.exe.config
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\bin\Debug\BinaryFormatterExample.exe
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\bin\Debug\BinaryFormatterExample.pdb
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\obj\Debug\BinaryFormatterExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\obj\Debug\BinaryFormatterExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\obj\Debug\BinaryFormatterExample.exe
+C:\Users\Harsha\source\repos\BinaryFormatterExample\BinaryFormatterExample\obj\Debug\BinaryFormatterExample.pdb

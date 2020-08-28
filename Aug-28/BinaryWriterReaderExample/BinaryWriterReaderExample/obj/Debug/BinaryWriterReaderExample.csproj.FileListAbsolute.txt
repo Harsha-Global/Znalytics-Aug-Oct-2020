@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\bin\Debug\BinaryWriterReaderExample.exe.config
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\bin\Debug\BinaryWriterReaderExample.exe
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\bin\Debug\BinaryWriterReaderExample.pdb
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\obj\Debug\BinaryWriterReaderExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\obj\Debug\BinaryWriterReaderExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\obj\Debug\BinaryWriterReaderExample.exe
+C:\Users\Harsha\source\repos\BinaryWriterReaderExample\BinaryWriterReaderExample\obj\Debug\BinaryWriterReaderExample.pdb

@@ -1,0 +1,7 @@
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\bin\Debug\XmlSerializerExample.exe.config
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\bin\Debug\XmlSerializerExample.exe
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\bin\Debug\XmlSerializerExample.pdb
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\obj\Debug\XmlSerializerExample.csprojAssemblyReference.cache
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\obj\Debug\XmlSerializerExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\obj\Debug\XmlSerializerExample.exe
+C:\Users\Harsha\source\repos\XmlSerializerExample\XmlSerializerExample\obj\Debug\XmlSerializerExample.pdb
