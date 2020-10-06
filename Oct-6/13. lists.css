@@ -1,0 +1,35 @@
+ol,
+ul {
+    border: 2px solid #ada1a1;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px #d3d1d1;
+}
+
+li {
+    border-bottom: 1px solid #ada1a1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f3f1f1;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+
+/* list-style-type for ol:  none | decimal | decimal-leading-zero | lower-roman | upper-roman | lower-alpha | upper-alpha */
+
+ul {
+    /* list-style-type: square; */
+    list-style-image: url("point.png");
+}
+
+
+/* list-style-type for ul:  none | disc | square | circle */
+
+dt {
+    border: 2px solid black;
+}

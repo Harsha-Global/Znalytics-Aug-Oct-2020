@@ -1,0 +1,30 @@
+/* unvisited */
+
+a:link {
+    color: #ffffff;
+    background-color: #49b363;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: Verdana;
+    display: inline-block;
+    transition: transform 0.25s;
+}
+
+
+/* visited */
+
+a:visited {
+    background-color: #49b363;
+    color: #ffffff;
+}
+
+
+/* hover */
+
+a:hover {
+    background-color: #1d8537;
+}
+
+a:active {
+    transform: scale(0.9);
+}

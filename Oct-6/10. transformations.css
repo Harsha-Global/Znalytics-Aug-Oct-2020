@@ -1,0 +1,38 @@
+div {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-family: 'Segoe UI';
+    box-shadow: 1px 1px 1px 3px #7d7bce;
+    transition: transform 1s;
+    /* background-image: linear-gradient(to right, #ff0000 10%, #ffff00 30%, #0000ff); */
+    background-image: radial-gradient(circle, #ff0000 10%, #ffff00 30%, #0000ff);
+}
+
+#div1 {
+    background-image: linear-gradient(to bottom, #afadad 70%, #747472);
+}
+
+#div1:hover {
+    transform: rotate(45deg) scale(1.2);
+}
+
+#div2:hover {
+    transform: scale(1.2);
+}
+
+#div3:hover {
+    transform: skew(45deg);
+}
+
+#div4:hover {
+    transform: translate(-20px, -20px);
+}
+
+#div5:active {
+    transform: scale(0.9);
+}

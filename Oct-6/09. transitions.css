@@ -1,0 +1,43 @@
+div {
+    background-color: #12835d;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+    float: left;
+    font: 24px Tahoma;
+    transition: background-color 0.5s;
+}
+
+
+/* box-shadow: horizontalPosition verticalPosition blur spread color*/
+
+#div1 {
+    border-radius: 10px;
+    box-shadow: -10px -10px 9px 5px #000000;
+}
+
+#div2 {
+    border-radius: 10px 50px 5px 25px;
+    font-size: 20px;
+    transition: font-size 1s;
+}
+
+#div3 {
+    box-shadow: 0px 0px 9px 4px #373b39;
+    transition: box-shadow 0.5s, font-size 1s;
+}
+
+div:hover {
+    background-color: #08b834;
+}
+
+#div3:hover {
+    box-shadow: 0px 0px 9px 10px #373b39;
+    font-size: 30px;
+}
+
+#div2:hover {
+    font-size: 40px;
+}

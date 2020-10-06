@@ -1,0 +1,39 @@
+div {
+    color: #000000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#div1 {
+    background-color: #438db8;
+    float: right;
+    width: 170px;
+    height: 300px;
+}
+
+#div2 {
+    background-color: #58b92c;
+    float: right;
+    width: 170px;
+    height: 300px;
+}
+
+#div3 {
+    background-color: #e08318;
+    float: right;
+    width: 170px;
+    height: 300px;
+}
+
+#div4 {
+    background-color: #35c918;
+    float: right;
+    width: 170px;
+    height: 300px;
+}
+
+#div5 {
+    background-color: #ca773ffa;
+    clear: both;
+}
