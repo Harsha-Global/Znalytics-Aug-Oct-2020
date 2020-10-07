@@ -62,3 +62,7 @@ body {
     background-color: #076d3a;
     text-decoration: underline;
 }
+
+.active {
+    border-bottom: 2px solid #ffffff;
+}
