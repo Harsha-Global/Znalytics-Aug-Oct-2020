@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <CustomerID>1</CustomerID>
+    <CustomerName>Scott</CustomerName>
+    <DateOfBirth>2000-06-16T00:00:00</DateOfBirth>
+    <IsRegistered>true</IsRegistered>
+  </Customer>
+  <Customer>
+    <CustomerID>2</CustomerID>
+    <CustomerName>Allen</CustomerName>
+    <DateOfBirth>1995-09-30T00:00:00</DateOfBirth>
+    <IsRegistered>false</IsRegistered>
+  </Customer>
+  <Customer>
+    <CustomerID>3</CustomerID>
+    <CustomerName>Jones</CustomerName>
+    <DateOfBirth>1986-02-27T00:00:00</DateOfBirth>
+    <IsRegistered>false</IsRegistered>
+  </Customer>
+  <Customer>
+    <CustomerID>4</CustomerID>
+    <CustomerName>James</CustomerName>
+    <DateOfBirth>2010-11-12T00:00:00</DateOfBirth>
+    <IsRegistered>true</IsRegistered>
+  </Customer>
+</ArrayOfCustomer>

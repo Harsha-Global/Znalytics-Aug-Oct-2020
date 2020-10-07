@@ -1,0 +1,2 @@
+The following topics are covered:
+C#, SQL Server
