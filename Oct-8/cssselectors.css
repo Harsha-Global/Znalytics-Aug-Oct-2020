@@ -1,0 +1,69 @@
+/* Tag Selector: All */
+
+
+/* p {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* ID Selector: One */
+
+
+/* #p1 {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* Class Selector: Few */
+
+
+/* .c1 {
+    background-color: gold;
+    padding: 4px;
+}
+ */
+
+
+/* Child Selector */
+
+
+/* div p {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* Grouping Selector */
+
+
+/* #p1,#p2,.c2 {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* Compound Selector */
+
+
+/* #p4.c2 {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* Next Sibling Selector */
+
+
+/* .c2+p {
+    background-color: gold;
+    padding: 4px;
+} */
+
+
+/* Attribute Selector */
+
+img[src="img1.jpg"] {
+    border: 3px solid red;
+}

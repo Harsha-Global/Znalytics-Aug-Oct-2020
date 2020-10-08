@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link href="registrationform.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- input type:  text | password | checkbox | radio | file | submit | button | file | hidden | search | datetime-local | week | month | color | number | range | reset | url | email | image -->
+    <form>
+        <div class="registration-form">
+
+            <div class="form-group">
+                <div class="form-label">Email *:</div>
+                <div class="form-container">
+                    <input type="email" class="form-control" name="email" autofocus="autofocus" placeholder="Email" required="required" tabindex="1">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Password:</div>
+                <div class="form-container">
+                    <input type="password" class="form-control" name="password" placeholder="Password" tabindex="3">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Name:</div>
+                <div class="form-container">
+                    <input type="text" class="form-control" name="personname" autocomplete="off" placeholder="Your Name" maxlength="30" pattern="^[A-Za-z ]*$" tabindex="2">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">State:</div>
+                <div class="form-container">
+                    <input type="text" value="Telangana" readonly="readonly" class="form-control" name="state">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">State:</div>
+                <div class="form-container">
+                    <input type="text" value="Telangana" disabled="disabled" class="form-control" name="state2">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Amount:</div>
+                <div class="form-container">
+                    <input type="number" class="form-control" name="amount" placeholder="Amount" step="100" min="0" max="100000">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Date of Joining:</div>
+                <div class="form-container">
+                    <input type="date" class="form-control" name="dateofjoining">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Time of Joining:</div>
+                <div class="form-container">
+                    <input type="time" class="form-control" name="timeofjoining">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Date and Time of Joining:</div>
+                <div class="form-container">
+                    <input type="datetime-local" class="form-control" name="datetimeofjoining">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Month of Joining:</div>
+                <div class="form-container">
+                    <input type="month" class="form-control" name="monthofjoining">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Week of Joining:</div>
+                <div class="form-container">
+                    <input type="week" class="form-control" name="weekofjoining">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Favourite Color:</div>
+                <div class="form-container">
+                    <input type="color" class="form-control" name="favouritecolor">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Volume:</div>
+                <div class="form-container">
+                    <input type="range" min="0" max="100" class="form-control" name="volume">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Url:</div>
+                <div class="form-container">
+                    <input type="url" class="form-control" name="url" placeholder="Url">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Attachment:</div>
+                <div class="form-container">
+                    <input type="file" class="form-control" name="attachment" multiple="multiple">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" name="newsletters"> Receive news letters
+            </div>
+
+            <div class="form-group">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Others
+            </div>
+
+
+            <div class="form-group">
+                <div class="form-label">City:</div>
+                <div class="form-container">
+                    <select class="form-control" name="city">
+                      <option>Please select</option>
+                      <option>New Delhi</option>
+                      <option>Mumbai</option>
+                      <option>Bangalore</option>
+                      <option>Hyderabad</option>
+                      <option>Chennai</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Bank:</div>
+                <div class="form-container">
+                    <select class="form-control" name="bank">
+                    <option>Please select</option>
+
+                    <optgroup label="Top Banks">
+                      <option>State Bank of India</option>
+                      <option>Union Bank</option>
+                      <option>ICICI Bank</option>
+                      <option>HDFC Bank</option>
+                    </optgroup>
+
+                    <optgroup label="Other Banks">
+                      <option>Axis Bank</option>
+                      <option>HDB Bank</option>
+                      <option>Paytm Bank</option>
+                      <option>Vysya Bank</option>
+                    </optgroup>
+                    
+                  </select>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="form-label">Country:</div>
+                <div class="form-container">
+                    <input type="text" class="form-control" name="country" list="countries-list">
+
+                    <datalist id="countries-list">
+                      <option>India</option>
+                      <option>USA</option>
+                      <option>UK</option>
+                      <option>Japan</option>
+                      <option>China</option>
+                      <option>Singapore</option>
+                      <option>Dubai</option>
+                      <option>Russia</option>
+                    </datalist>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Search:</div>
+                <div class="form-container">
+                    <input type="search" class="form-control" name="search">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Comments:</div>
+                <div class="form-container">
+                    <textarea class="form-control" name="comments"></textarea>
+                </div>
+            </div>
+
+
+            <div class="button-container">
+                <div><button class="btn">Sign Up</button></div>
+
+                <div><input type="submit" value="Register" class="btn"></div>
+
+                <div><input type="reset" value="Reset" class="btn"></div>
+
+                <div><input type="image" src="ok.png" width="25px" height="25px"></div>
+
+                <div>
+                    <button class="btn">
+                      <span class="fa fa-check-circle"></span>
+                      Sign Up
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

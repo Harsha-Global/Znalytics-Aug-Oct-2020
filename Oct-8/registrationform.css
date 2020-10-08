@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.registration-form {
+    border: 1px solid #000000;
+    padding: 3px;
+    margin: 3px;
+    width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    /* background-color: #cc3030; */
+    height: 60px;
+}
+
+.form-label {
+    width: 40%;
+    float: left;
+}
+
+.form-container {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #a19c9c;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    transition: box-shadow 0.3s;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 3px 1px #2d8bca;
+}
+
+.btn {
+    background-color: #0f9657;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 20px 9px 20px;
+    box-shadow: 0px 0px 1px 1px #b3b0b0;
+    border-radius: 4px;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    margin: 4px;
+}
+
+.btn:hover {
+    background-color: #087542;
+    box-shadow: 0px 0px 2px 2px #b3b0b0;
+}
+
+.button-container {
+    text-align: center;
+}
