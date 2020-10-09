@@ -73,3 +73,14 @@ var name = "Scott",
     age = 20;
 var message = `Hello ${name} - your age is ${age}`;
 console.log(message); //Output: Hello Scott - your age is 20
+
+//Hoisting
+console.log(xyz); //Output: undefined
+var xyz = 1000; //Variables declared anywhere in the program are hoisted-up (lifted-up) automatically towards the top of the program. But assignment will not be hoisted.
+
+//let
+let msg = "Hello";
+let n = 10;
+
+//let supports local variables, global variables and block level variables.
+//var  supports local variables, global variables but not block level variables.
