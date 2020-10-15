@@ -1,0 +1,22 @@
+POST http://www.icicibank.com/transfer HTTP/1.1
+Host: www.icicibank.com
+User-Agent: Chrome
+
+source=101&destination=102&amount=2000&date=2020-08-10
+
+
+---------------------------------------------------------------------------
+
+HTTP/1.1 200 OK
+Date: xxxxxx
+Content-Type: text/html
+
+<h1>Funds transferred from 101 to 102</h1>
+
+---------------------------------------------------------------------------
+
+HTTP/1.1 400 BadRequest
+Date: xxxxxx
+Content-Type: text/plain
+
+Insufficient Funds in the account 101
