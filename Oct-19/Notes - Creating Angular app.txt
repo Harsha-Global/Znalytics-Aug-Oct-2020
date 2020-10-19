@@ -1,0 +1,57 @@
+Notes:
+
+One-Time:
+1. Installl NodeJS
+2. npm install @angular/cli -g
+
+
+For every new app:
+-----------------------------------------------------
+md c:\angular10
+cd c:\angular10
+ng new appname --routing --style=css
+cd c:\angular10\appname
+ng serve --opeen
+http://localhost:4200
+
+---------------------------------------------------
+
+- Visual Studio Code
+
+- Open Folder: c:\angular10\appname
+
+- app.component.ts
+
+- app.component.html
+	<nav>...</nav>
+	<router-outlet></router-outlet>
+
+- app\components\home\home.component.ts
+- app\components\home\home.component.html
+- app\components\home\home.component.css
+
+- app\components\home\home.component.ts
+
+	import { Component } from "@angular/core";
+	
+	@Component({
+		selector: "app-home",
+		templateUrl: "./home.component.html",
+		styleUrls: [ "./home.component.css" ]
+	})
+	export class HomeComponent
+	{
+	}
+
+- app.module.ts
+	declarations:
+	[
+		HomeComponent
+	]
+
+- app-routing.module.ts
+	{ path: "home", component: HomeComponent }
+
+- app.component.html
+	<a [routerLink]=" [ 'home' ] ">text</a>
+
