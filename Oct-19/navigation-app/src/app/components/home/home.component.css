@@ -1,0 +1,48 @@
+.categories {
+    background-color: #ece9e9;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000000;
+    list-style-type: none;
+}
+
+.categories li {
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.table {
+    background-color: #ece9e9;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000000;
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table td {
+    border-bottom: 1px solid #777676;
+}
+
+.card-container {
+    background-color: #ece9e9;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000000;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.card {
+    background-image: url("http://image.shutterstock.com/image-photo/herbal-cosmetic-products-laboratory-glassware-600w-1673213959.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+}

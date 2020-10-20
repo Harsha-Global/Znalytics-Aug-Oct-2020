@@ -1,0 +1,38 @@
+<ul class="categories">
+    <li *ngFor="let category of categories">
+        {{category}}
+    </li>
+</ul>
+
+<ul class="categories">
+    <li *ngFor="let product of products">
+        {{product.productName}}
+    </li>
+</ul>
+
+<table class="table">
+    <tr *ngFor="let product of products">
+        <td>{{product.productId}}</td>
+        <td>{{product.productName}}</td>
+        <td>{{product.cost}}</td>
+    </tr>
+</table>
+
+<div class="card-container">
+    <div *ngIf="products.length > 0">{{products.length}} Products</div>
+    <div *ngIf="products.length == 0">No Products</div>
+
+    <div class="card" *ngFor="let product of products">
+        <h4>{{product.productName | uppercase }}</h4>
+        <span>{{product.cost | currency: "INR"}}</span>
+        <div>{{product.dateOfManufacture | date: "mediumDate"}}</div>
+    </div>
+</div>
+
+<!-- pipes:
+1. number
+2. currency
+3. uppercase
+4. lowercase
+5. date
+-->
