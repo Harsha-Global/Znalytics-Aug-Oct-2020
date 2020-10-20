@@ -1,0 +1,105 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "empName": "Scott",
+      "email": "scott@gmail.com"
+    },
+    {
+      "id": 102,
+      "empName": "Smith",
+      "email": "smith@gmail.com"
+    },
+    {
+      "id": 103,
+      "empName": "zxc",
+      "email": "zxc@gmail.com"
+    },
+    {
+      "id": 104,
+      "empName": "Jones",
+      "email": "jones@gmail.com"
+    },
+    {
+      "empName": "asdf",
+      "email": "asdf@gmail.com",
+      "id": 105
+    },
+    {
+      "empName": "Smith",
+      "email": "smith@gmail.com",
+      "id": 106
+    },
+    {
+      "empName": "John",
+      "email": "john@gmail.com",
+      "id": 107
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "scott",
+      "password": "scott123"
+    },
+    {
+      "id": 2,
+      "userName": "smith",
+      "password": "scott123"
+    },
+    {
+      "username": "john",
+      "password": "john123",
+      "id": 3
+    },
+    {
+      "username": "jones",
+      "password": "jones123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Lenovo Laptop",
+      "price": 45000,
+      "brand": "Lenovo",
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "productName": "Dell Mouse",
+      "price": 840,
+      "brand": "Dell",
+      "isAvailable": false
+    },
+    {
+      "id": 3,
+      "productName": "Lenovo Keyboard",
+      "price": 1500,
+      "brand": "Lenovo",
+      "isAvailable": false
+    },
+    {
+      "id": 4,
+      "productName": "Samsung Phone",
+      "price": 24000,
+      "brand": "Samsung",
+      "isAvailable": false
+    },
+    {
+      "id": 5,
+      "productName": "HP Printer",
+      "price": 19250,
+      "brand": "HP",
+      "isAvailable": true
+    },
+    {
+      "id": 6,
+      "productName": "HP Monitor",
+      "price": 8500,
+      "brand": "HP",
+      "isAvailable": true
+    }
+  ]
+}
