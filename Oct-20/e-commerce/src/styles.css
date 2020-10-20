@@ -22,3 +22,19 @@ body {
 .table td {
     border-bottom: 1px solid #777676;
 }
+
+.form-control {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 4px;
+    font: 18px 'Tahoma';
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #b9b8b8;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 4px;
+    border: 1px solid #000000;
+}

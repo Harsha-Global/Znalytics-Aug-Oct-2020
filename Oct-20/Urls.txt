@@ -1,0 +1,8 @@
+GET		http://localhost:3000/products	Returns [] of products
+GET		http://localhost:3000/products/id	Returns the specific product based on id
+GET		http://localhost:3000/products?id=xxxx	Returns the specific product based on id
+GET		http://localhost:3000/products?prop=xxxx	Returns the matching products
+POST		http://localhost:3000/products	Insert a new object to the array; and returns newly added product
+PUT		http://localhost:3000/products/id	Updates the existing object in the array; and returns updated product
+DELETE		http://localhost:3000/products/id	Deletes the existing object in the array; and returns empty
+

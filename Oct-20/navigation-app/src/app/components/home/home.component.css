@@ -11,20 +11,6 @@
     border-bottom: 1px solid #ffffff;
 }
 
-.table {
-    background-color: #ece9e9;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid #000000;
-    width: 90%;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-.table td {
-    border-bottom: 1px solid #777676;
-}
-
 .card-container {
     background-color: #ece9e9;
     padding: 10px;

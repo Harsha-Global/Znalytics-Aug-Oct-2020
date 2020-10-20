@@ -1,0 +1,15 @@
+.nav {
+    background-color: #059257;
+    padding: 10px;
+}
+
+.nav a:link,
+.nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav a:hover {
+    background-color: #0f6e47;
+}
