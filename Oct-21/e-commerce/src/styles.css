@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.table {
+    background-color: #ece9e9;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000000;
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table td {
+    border-bottom: 1px solid #777676;
+}
+
+.form-control {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 4px;
+    font: 18px 'Tahoma';
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #b9b8b8;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 4px;
+    border: 1px solid #000000;
+}
