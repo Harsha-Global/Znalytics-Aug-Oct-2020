@@ -1,0 +1,32 @@
+<form (submit)="onLoginClick()">
+    <div class="form-container">
+
+        <!-- user name starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="username">User name:</label>
+            </div>
+            <div class="form-element">
+                <input type="text" id="username" [(ngModel)]="userName" placeholder="User name" required="required" class="form-control" name="username">
+            </div>
+        </div>
+        <!-- user name ends -->
+
+        <!-- password starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="password">Password:</label>
+            </div>
+            <div class="form-element">
+                <input type="password" id="password" [(ngModel)]="password" placeholder="Password" required="required" class="form-control" name="password">
+            </div>
+        </div>
+        <!-- password ends -->
+
+        <div class="button-container">
+            <button class="btn" type="submit">Login</button>
+        </div>
+
+        <div style="color:red" *ngIf="showError">Invalid username or password, please try again!</div>
+    </div>
+</form>

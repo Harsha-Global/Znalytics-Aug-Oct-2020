@@ -1,0 +1,42 @@
+<h3>Products</h3>
+<a [routerLink]=" [ '/new-product' ] ">New Product</a>
+
+<div class="filter">
+    <div>
+        <label>Brand:</label>
+        <select class="form-control" (change)="onBrandChange()" [(ngModel)]="selectedBrand">
+          <option value="">All</option>
+          <option value="Lenovo">Lenovo</option>
+          <option value="Samsung">Samsung</option>
+          <option value="Dell">Dell</option>
+          <option value="HP">HP</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="search" placeholder="Search" [(ngModel)]="searchProduct" class="form-control">
+
+        <button class="btn" type="button" (click)="onSearchClick()">Search</button>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Brand</th>
+            <th>Is Available</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.productName}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.brand}}</td>
+            <td>{{product.isAvailable}}</td>
+        </tr>
+    </tbody>
+</table>

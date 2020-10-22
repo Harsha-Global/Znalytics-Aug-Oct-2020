@@ -1,0 +1,44 @@
+<form (submit)="onRegisterClick(regForm)" #regForm="ngForm">
+    <div class="form-container">
+
+        <!-- user name starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="username">User name:</label>
+            </div>
+            <div class="form-element">
+                <input type="text" id="username" [(ngModel)]="userName" placeholder="User name" required="required" maxlength="30" minlength="3" class="form-control" pattern="^[A-Za-z0-9 ]*$" name="username" #uname="ngModel">
+
+                <div *ngIf="uname.invalid && (uname.touched || isFormSubmitted) && uname.errors.required" style="color:red">Username can't be blank</div>
+
+                <div *ngIf="uname.invalid && (uname.touched || isFormSubmitted) && uname.errors.minlength" style="color:red">Username should contain minimum 3 characters</div>
+
+                <div *ngIf="uname.invalid && (uname.touched || isFormSubmitted) && uname.errors.pattern" style="color:red">Username should contain alphabets, digits and spaces only</div>
+            </div>
+        </div>
+        <!-- user name ends -->
+
+        <!-- password starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="password">Password:</label>
+            </div>
+            <div class="form-element">
+                <input type="password" id="password" [(ngModel)]="password" placeholder="Password" required="required" maxlength="30" minlength="3" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15})" class="form-control" name="password" #pwd="ngModel">
+
+                <div *ngIf="pwd.invalid && (pwd.touched || isFormSubmitted) && pwd.errors.required" style="color:red">Password can't be blank</div>
+
+                <div *ngIf="pwd.invalid &&  (pwd.touched || isFormSubmitted) && pwd.errors.minlength" style="color:red">Password should contain minimum 3 characters</div>
+
+                <div *ngIf="pwd.invalid &&  (pwd.touched || isFormSubmitted) && pwd.errors.pattern" style="color:red">Password should contain at least one uppercase letter, one lowercase letter and one digit</div>
+            </div>
+        </div>
+        <!-- password ends -->
+
+        <div class="button-container">
+            <button class="btn" type="submit">Register</button>
+        </div>
+
+        <span style="color:green" *ngIf="showId">Your ID: {{newId}}</span>
+    </div>
+</form>
