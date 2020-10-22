@@ -1,0 +1,15 @@
+How to access form group:
+	this.formgroupname
+
+
+How to access form control:
+	this.formgroupname.get("formcontrolname")
+
+To get value of a form control:
+	this.formgroupname.value.formcontrolname;
+
+To set value of a formcontrol:
+	this.formgroupname.patchValue( { formcontrolname:   ourOwnValue } );
+
+
+Note: "this" not required in the template.

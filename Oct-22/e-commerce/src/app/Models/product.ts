@@ -1,3 +1,4 @@
+//Model class
 export class Product
 {
   id: number = null;
