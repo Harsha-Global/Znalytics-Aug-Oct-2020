@@ -28,6 +28,7 @@
             <th>Price</th>
             <th>Brand</th>
             <th>Is Available</th>
+            <th>Options</th>
         </tr>
     </thead>
     <tbody>
@@ -37,6 +38,9 @@
             <td>{{product.price}}</td>
             <td>{{product.brand}}</td>
             <td>{{product.isAvailable}}</td>
+            <td>
+                <a [routerLink]=" [ '/edit-product', product.id ] ">Edit</a>
+            </td>
         </tr>
     </tbody>
 </table>

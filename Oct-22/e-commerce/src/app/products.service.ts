@@ -18,4 +18,18 @@ export class ProductsService
     return this.httpClient.post<Product>("http://localhost:3000/products",
     product, { responseType: "json"});
   }
+
+  //This method receives an object of Product class (Product type) that includes all properties of Product class
+  updateProduct(product: Product): Observable<Product>
+  {
+    return this.httpClient.put<Product>(`http://localhost:3000/products/${product.id}`,
+    product, { responseType: "json"});
+  }
+
+  //This method receives "id"
+  getProductByProductID(id: number): Observable<Product[]>
+  {
+    return this.httpClient.get<Product[]>(`http://localhost:3000/products?id=${id}`,
+    { responseType: "json"});
+  }
 }
