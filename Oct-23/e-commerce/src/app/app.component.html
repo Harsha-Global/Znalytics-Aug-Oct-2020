@@ -1,0 +1,11 @@
+<nav class="nav">
+    <a [routerLink]=" [ 'home' ] " [routerLinkActive]=" 'is-active' ">Home</a>
+    <a [routerLink]=" [ 'register' ] " *ngIf="!usersService.isLoggedIn" [routerLinkActive]=" 'is-active' ">Register</a>
+    <a [routerLink]=" [ 'login' ] " *ngIf="!usersService.isLoggedIn" [routerLinkActive]=" 'is-active' ">Login</a>
+    <a [routerLink]=" [ 'products' ] " *ngIf="usersService.isLoggedIn" [routerLinkActive]=" 'is-active' ">Products</a>
+    <a href="#" onclick="return false" *ngIf="usersService.isLoggedIn" (click)="onLogoutClick()">Logout</a>
+</nav>
+
+<router-outlet>
+</router-outlet>
+<!-- router-outlet is the placeholder, where actual page content will be appear - depends on the route (url) -->

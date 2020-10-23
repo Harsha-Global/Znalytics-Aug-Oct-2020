@@ -1,0 +1,130 @@
+<h3>Edit Product</h3>
+<form [formGroup]="myFormGroup" (ngSubmit)="onSaveClick()">
+    <div class="form-container">
+
+        <!-- ProductName starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="product-name">Product Name:</label>
+            </div>
+            <div class="form-element">
+                <input type="text" class="form-control" placeholder="Product Name" id="product-name" formControlName="productName">
+
+                <div class="error" *ngIf="myFormGroup.get('productName').invalid &&
+                (myFormGroup.get('productName').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('productName').errors.required">
+                    Product Name can't be empty.
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('productName').invalid &&
+                (myFormGroup.get('productName').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('productName').errors.minlength">
+                    Product Name should contain at least two characters.
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('productName').invalid &&
+                (myFormGroup.get('productName').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('productName').errors.maxlength">
+                    Product Name should contain maximum of 40 characters.
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('productName').invalid &&
+                (myFormGroup.get('productName').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('productName').errors.pattern">
+                    Product Name should contain alphabets, spaces and dot (.)
+                </div>
+
+            </div>
+        </div>
+        <!-- ProductName ends -->
+
+        <!-- Price starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="price">Price:</label>
+            </div>
+            <div class="form-element">
+                <input type="number" class="form-control" placeholder="Price" id="price" formControlName="price">
+
+                <div class="error" *ngIf="myFormGroup.get('price').invalid &&
+                (myFormGroup.get('price').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('price').errors.required">
+                    Price can't be empty.
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('price').invalid &&
+                (myFormGroup.get('price').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('price').errors.pattern">
+                    Price should be a number.
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('price').invalid &&
+                (myFormGroup.get('price').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('price').errors.min">
+                    Minimum Price: 0
+                </div>
+
+                <div class="error" *ngIf="myFormGroup.get('price').invalid &&
+                (myFormGroup.get('price').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('price').errors.max">
+                    Maximum Price: 100000
+                </div>
+            </div>
+        </div>
+        <!-- Price ends -->
+
+        <!-- Brand starts -->
+        <div class="form-group">
+            <div class="form-label">
+                <label for="brand">Brand:</label>
+            </div>
+            <div class="form-element">
+                <select class="form-control" id="brand" formControlName="brand">
+                  <option value="">Please Select</option>
+                  <option value="Apple">Apple</option>
+                  <option value="Sony">Sony</option>
+                  <option value="Samsung">Samsung</option>
+                  <option value="LG">LG</option>
+                  <option value="HP">HP</option>
+                  <option value="Dell">Dell</option>
+                  <option value="Lenovo">Lenovo</option>
+                  <option value="Vivo">Vivo</option>
+                </select>
+
+                <div class="error" *ngIf="myFormGroup.get('brand').invalid &&
+                (myFormGroup.get('brand').touched ||
+                isFormSubmitted) &&
+                myFormGroup.get('brand').errors.required">
+                    Please select brand.
+                </div>
+            </div>
+        </div>
+        <!-- Brand ends -->
+
+        <!-- IsAvailable starts -->
+        <div class="form-group">
+            <div class="form-element">
+                <input type="checkbox" id="is-available" formControlName="isAvailable">
+                <label for="is-available">Is Available</label>
+            </div>
+        </div>
+        <!-- IsAvailable ends -->
+
+        <div class="button-container">
+            <button class="btn" type="submit">Save</button>
+        </div>
+
+        <div>
+            <a [routerLink]=" [ '/products' ] ">Back...</a>
+        </div>
+
+    </div>
+</form>
