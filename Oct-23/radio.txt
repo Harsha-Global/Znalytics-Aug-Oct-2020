@@ -1,0 +1,2 @@
+<input type="radio" name="gender" value="Male" formControlName="gender">
+<input type="radio" name="gender" value="Female" formControlName="gender">

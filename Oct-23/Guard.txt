@@ -1,0 +1,2 @@
+CanActivate Guard:
+   It can make a route accessible only after login.

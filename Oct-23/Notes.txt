@@ -1,0 +1,138 @@
+Component:
+--------------
+
+	- ng g component ComponentName
+
+	- Add component to Module:
+		declarations: [ ComponentName ]
+
+	- Create route:
+		app-routing.module.ts:
+			{ path: "somepath", component: ComponentName }
+
+	- Add router link:
+		<a [routerLink]=" [ '/path' ] ">text</a>
+
+
+Module:
+----------
+
+	- ng g module ModuleName
+
+	- Add necessary components, directives, pipes:
+		declarations: [ list of components, directives, pipes ]
+
+	- Import necessary other modules:
+		  imports: [
+   			 CommonModule,
+   			 FormsModule,
+  			 ReactiveFormsModule,
+    			 RouterModule
+ 			],
+
+	- Import this module in AppModule:
+		app.module.ts:
+			imports: [ ModuleName ]
+
+
+
+Service:
+---------
+
+	- ng g service ServiceName
+
+	- [optional]:   Remove { providedIn: "root" }  +  Add the service to a specific module:
+		providers: [ ServiceName ]
+
+	- Inject the service in component:
+		 constructor(private  referenceVariable  :  ServiceName)
+		 {
+		}
+
+	- Call the service method:
+		this.referenceVariable.method( );
+
+
+Guard:
+--------
+
+	- ng g guard GuardName
+	- Select CanActivate
+
+	- Add guard to the route:
+	   app-routing.module.ts:
+
+		{ path: "...", component: ....,  canActivate: [ CanActivateGuardName ] }
+
+
+Pipe:
+-------
+
+	- ng g pipe PipeName
+
+	- Add pipe to Module:
+		declarations: [ PipeName ]
+
+	- [Optional]: Export the pipe to AppModule:
+		exports: [ PipeName ]
+
+	- Invoke pipe (in any template):
+		{{ property | pipe }}
+		{{ property | pipe : parameter : parameter.. }}
+
+
+Reactive Form:
+-----------------
+	- Create a reference variable for FormGroup:
+		fg:  FormGroup;;
+
+	- Create a form group:
+		constructor()
+		{
+			this.fg = new FormGroup( { .... } );
+		}
+
+	- Create a form control:
+		{ 
+			yourFormControlName:  new FormControl(defaultValue, [ Validators.????, ... ] )
+		}
+
+	- Bind form group to <form> tag:
+		<form [formGroup]="fg">
+		</form>
+
+	- Bind form control to <input> or <select> or <textarea> tag:
+		<input  formControlName="yourFormControlName">
+
+	- Get the current values of all form controls:
+		this.fg.value
+			{ formControlName1: value, formControlName2: value, ... }
+
+	- Get the current value of specific form control:
+		this.fg.value.formControlName
+
+	- Update (set) value of a specific form control(s):
+		this.fg.patchValue( {
+			formControlName1: value
+		} )
+
+	- Reset / clear all the values:
+		this.fg.reset( );
+
+	- Get specific form control:
+		this.fg.get("formControlName");
+
+
+
+Property Binding (Parent-to-Child component communication):
+-----------------------------------------------------------------------
+
+	- Supply value from parent component to child component:
+		<app-child [property]=" value ">   </app-child>
+
+	- Receive the property in the child component:
+		@Input()  property: datatype;
+
+	- Print the value in child component's template:
+		{{ property }}
+
