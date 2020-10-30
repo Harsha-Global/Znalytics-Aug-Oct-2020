@@ -1,0 +1,26 @@
+jquery
+popper.js
+bootstrap
+
+npm install jquery popper.js bootstrap --save
+
+(or)
+
+
+npm install jquery --save
+npm install popper.js --save
+npm install bootstrap --save
+
+
+airline
+pecunia
+hospital mgmt
+mail
+...
+
+
+
+
+
+padding: 50px;
+padding-top: 50px;
