@@ -1,0 +1,31 @@
+HTML:
+	<div>Hello World</div>
+
+after compilation (JS):
+	var d1 = document.createElement("div");
+	d1.innerHTML = "Hello World";
+
+---------------------------------------------------------
+
+
+component.ts:
+	class component
+	{
+		x: number = 100;
+	}
+
+after compilation (JS):
+	function component = function()
+	{
+		this.x = 100; //component..ts, 3
+	}
+
+-----------------------------------------------------------
+
+main.js:
+	angular view (JS) = compiled code of template + compiled code for component
+	angular view (JS) = compiled code of template + compiled code for component	
+	angular view (JS) = compiled code of template + compiled code for component
+
+
+lazy loading:
