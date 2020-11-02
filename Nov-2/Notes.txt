@@ -1,0 +1,24 @@
+Object:
+    - It is the representation of physical things such as a person or a thing.
+    - In C#, objects are created based on the class.
+
+Class:
+    - It is a model of a type of objects.
+
+	class ClassName
+	{
+	  //instance members	- this.memberName	[or]		refVariable.memberName
+	  instance fields //stores data regarding each object
+	  instance methods //manipulates instance fields
+	  instance constructors //initializing instance fields. Executes automatically when an object is crated with 'new'.
+	  instance properties //set / get for instance instance field; you can do validations set accessor.
+	  instance destructors //clear unmanaged resources (file / db connections - if any) - prefer IDisposable.Dispose
+	  instance events //notifies other classes that some data has been changed.
+
+	  //static members		- memberName		[or]		ClassName.memberName
+	  static fields //stores data that is common to all objects
+	  static methods //manipulates static fields
+	  static constructors //initializing static fields. Executes automatically we use the class name for this first time in seq of exec
+	  static properties //set / get for instance static field; you can do validations set accessor.
+	  static events //notifies other classes that some data has been changed.
+	}
