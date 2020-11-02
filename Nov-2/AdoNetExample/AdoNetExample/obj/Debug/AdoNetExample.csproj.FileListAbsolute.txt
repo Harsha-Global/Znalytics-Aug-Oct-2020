@@ -1,0 +1,10 @@
+c:\CSharp\AdoNetExample\AdoNetExample\bin\Debug\AdoNetExample.exe.config
+c:\CSharp\AdoNetExample\AdoNetExample\bin\Debug\AdoNetExample.exe
+c:\CSharp\AdoNetExample\AdoNetExample\bin\Debug\AdoNetExample.pdb
+c:\CSharp\AdoNetExample\AdoNetExample\bin\Debug\DataAccessLayer.dll
+c:\CSharp\AdoNetExample\AdoNetExample\bin\Debug\DataAccessLayer.pdb
+c:\CSharp\AdoNetExample\AdoNetExample\obj\Debug\AdoNetExample.csprojAssemblyReference.cache
+c:\CSharp\AdoNetExample\AdoNetExample\obj\Debug\AdoNetExample.csproj.CoreCompileInputs.cache
+c:\CSharp\AdoNetExample\AdoNetExample\obj\Debug\AdoNetExample.csproj.CopyComplete
+c:\CSharp\AdoNetExample\AdoNetExample\obj\Debug\AdoNetExample.exe
+c:\CSharp\AdoNetExample\AdoNetExample\obj\Debug\AdoNetExample.pdb
