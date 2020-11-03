@@ -1,0 +1,6 @@
+c:\CSharp\AdoNetExample\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+c:\CSharp\AdoNetExample\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+c:\CSharp\AdoNetExample\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+c:\CSharp\AdoNetExample\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+c:\CSharp\AdoNetExample\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+c:\CSharp\AdoNetExample\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -1,0 +1,31 @@
+Person p = new Person();
+p.PersonName = "Harsha";
+p.Address = new AddressDetail();
+
+
+Person p = new Person("Harsha");
+
+
+
+SqlConnection cn = new SqlConnection();
+cn.ConnectionString = "server=.....";
+
+SqlConnection cn = new SqlConnection("server=.....");
+
+
+
+<EmpID>101</EmpID>
+
+requirement:
+	- Get no. of employees
+		select count(*) from Employees
+
+
+	http://localhost:port/api/EmployeesCounter
+	Result:  10
+
+
+	1. Stored proc
+	2. Method in EmployeesDataAccess
+	3. Web API Controller
+	4. Send request from the client
