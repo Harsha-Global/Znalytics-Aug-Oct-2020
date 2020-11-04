@@ -1,0 +1,7 @@
+C:\CSharp\DataSetExample\DataSetExample\bin\Debug\DataSetExample.exe.config
+C:\CSharp\DataSetExample\DataSetExample\bin\Debug\DataSetExample.exe
+C:\CSharp\DataSetExample\DataSetExample\bin\Debug\DataSetExample.pdb
+C:\CSharp\DataSetExample\DataSetExample\obj\Debug\DataSetExample.csprojAssemblyReference.cache
+C:\CSharp\DataSetExample\DataSetExample\obj\Debug\DataSetExample.csproj.CoreCompileInputs.cache
+C:\CSharp\DataSetExample\DataSetExample\obj\Debug\DataSetExample.exe
+C:\CSharp\DataSetExample\DataSetExample\obj\Debug\DataSetExample.pdb

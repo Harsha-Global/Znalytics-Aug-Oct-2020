@@ -1,0 +1,7 @@
+c:\CSharp\TransactionsExample\TransactionsExample\bin\Debug\TransactionsExample.exe.config
+c:\CSharp\TransactionsExample\TransactionsExample\bin\Debug\TransactionsExample.exe
+c:\CSharp\TransactionsExample\TransactionsExample\bin\Debug\TransactionsExample.pdb
+c:\CSharp\TransactionsExample\TransactionsExample\obj\Debug\TransactionsExample.csprojAssemblyReference.cache
+c:\CSharp\TransactionsExample\TransactionsExample\obj\Debug\TransactionsExample.csproj.CoreCompileInputs.cache
+c:\CSharp\TransactionsExample\TransactionsExample\obj\Debug\TransactionsExample.exe
+c:\CSharp\TransactionsExample\TransactionsExample\obj\Debug\TransactionsExample.pdb

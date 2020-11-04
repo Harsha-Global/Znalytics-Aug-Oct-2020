@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="companyModelStoreContainer" CdmEntityContainer="companyEntities">
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="companyModel.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="DeptNo" ColumnName="DeptNo" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="Loc" ColumnName="Loc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DeleteEmployee" FunctionName="companyModel.Store.DeleteEmployee" />
+    <FunctionImportMapping FunctionImportName="GetAllEmployees" FunctionName="companyModel.Store.GetAllEmployees">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="companyModel.GetAllEmployees_Result">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="DeptNo" ColumnName="DeptNo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetEmployeesCount" FunctionName="companyModel.Store.GetEmployeesCount" />
+    <FunctionImportMapping FunctionImportName="InsertEmployee" FunctionName="companyModel.Store.InsertEmployee" />
+    <FunctionImportMapping FunctionImportName="UpdateEmployee" FunctionName="companyModel.Store.UpdateEmployee" />
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="companyModel.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="DeptNo" ColumnName="DeptNo" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

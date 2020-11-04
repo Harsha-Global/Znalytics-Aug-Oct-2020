@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="companyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DeptNo" />
+    </Key>
+    <Property Name="DeptNo" Type="int" Nullable="false" />
+    <Property Name="DeptName" Type="nvarchar(max)" />
+    <Property Name="Loc" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="EmpName" Type="varchar(max)" />
+    <Property Name="Salary" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DeptNo" Type="int" />
+  </EntityType>
+  <Association Name="FK__Employees__DeptN__267ABA7A">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="DeptNo" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="DeptNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DeleteEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetAllEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetEmployeesCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="InsertEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="int" Mode="In" />
+    <Parameter Name="EmpName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Salary" Type="decimal" Mode="In" />
+    <Parameter Name="DeptNo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="int" Mode="In" />
+    <Parameter Name="EmpName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="Salary" Type="decimal" Mode="In" />
+    <Parameter Name="DeptNo" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="companyModelStoreContainer">
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Employees__DeptN__267ABA7A" Association="Self.FK__Employees__DeptN__267ABA7A">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

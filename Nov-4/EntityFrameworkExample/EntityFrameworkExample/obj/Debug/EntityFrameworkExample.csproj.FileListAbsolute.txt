@@ -1,0 +1,12 @@
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.exe.config
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.exe
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.pdb
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.dll
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.xml
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csprojAssemblyReference.cache
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.CoreCompileInputs.cache
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.CopyComplete
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.exe
+C:\CSharp\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.pdb

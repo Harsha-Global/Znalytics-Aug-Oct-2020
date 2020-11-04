@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="companyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptNo" />
+    </Key>
+    <Property Name="DeptNo" Type="Int32" Nullable="false" />
+    <Property Name="DeptName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Loc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="companyModel.FK__Employees__DeptN__267ABA7A" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityContainer Name="companyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <FunctionImport Name="DeleteEmployee">
+      <Parameter Name="EmpID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetAllEmployees" ReturnType="Collection(companyModel.GetAllEmployees_Result)" />
+    <FunctionImport Name="GetEmployeesCount" ReturnType="Collection(Int32)" />
+    <FunctionImport Name="InsertEmployee">
+      <Parameter Name="EmpID" Mode="In" Type="Int32" />
+      <Parameter Name="EmpName" Mode="In" Type="String" />
+      <Parameter Name="Salary" Mode="In" Type="Decimal" />
+      <Parameter Name="DeptNo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateEmployee">
+      <Parameter Name="EmpID" Mode="In" Type="Int32" />
+      <Parameter Name="EmpName" Mode="In" Type="String" />
+      <Parameter Name="Salary" Mode="In" Type="Decimal" />
+      <Parameter Name="DeptNo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Employees" EntityType="companyModel.Employee" />
+    <AssociationSet Name="FK__Employees__DeptN__267ABA7A" Association="companyModel.FK__Employees__DeptN__267ABA7A">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="GetAllEmployees_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="DeptNo" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="Int32" Nullable="false" />
+    <Property Name="EmpName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DeptNo" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="companyModel.FK__Employees__DeptN__267ABA7A" FromRole="Employee" ToRole="Department" />
+  </EntityType>
+  <Association Name="FK__Employees__DeptN__267ABA7A">
+    <End Type="companyModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="companyModel.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptNo" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DeptNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
