@@ -1,0 +1,12 @@
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\Agility.eCommerce.BusinessLogicLayer.dll
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\Agility.eCommerce.BusinessLogicLayer.pdb
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\Agility.eCommerce.DataLayer.dll
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\Agility.eCommerce.DataLayer.pdb
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\Agility.eCommerce.DataLayer.dll.config
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\obj\Debug\Agility.eCommerce.BusinessLogicLayer.csprojAssemblyReference.cache
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\obj\Debug\Agility.eCommerce.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\obj\Debug\Agility.eCommerce.BusinessLogicLayer.csproj.CopyComplete
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\obj\Debug\Agility.eCommerce.BusinessLogicLayer.dll
+c:\WebAPI\Agility.eCommerce.WebAPI\Agility.eCommerce.BusinessLogicLayer\obj\Debug\Agility.eCommerce.BusinessLogicLayer.pdb

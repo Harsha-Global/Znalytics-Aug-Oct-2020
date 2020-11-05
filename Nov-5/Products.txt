@@ -1,0 +1,7 @@
+GET 	api/products		Get all products sorted by ProductName
+GET	api/products/id		Get product by ProductID
+GET	api/products?ProductName=s	Get products by matching product name (contains)
+POST	api/products		Inserts a new product
+PUT	api/products/id		Updates an existing product
+DELETE	api/products/id		Deletes an existing product
+
