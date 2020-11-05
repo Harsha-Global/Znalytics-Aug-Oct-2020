@@ -1,0 +1,11 @@
+e-Commerce
+	administrators: a set of admin with username and password
+	Customers: each customer has username and passoword + other details
+	Products: list of products
+
+AdministratorsDataLayer
+	Administrator GetAdministratorByUserNameAndPassword(string Username, string Password)
+
+
+AdministratorsBusinessLogicLayer
+	Administrator GetAdministratorByUserNameAndPassword(string Username, string Password)

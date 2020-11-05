@@ -101,6 +101,7 @@ namespace Agility.eCommerce.DataLayer
             //deleting all products from the table
             List<Product> products = db.Products.ToList();
             db.Products.RemoveRange(products);
+            db.SaveChanges();
         }
     }
 }

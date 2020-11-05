@@ -32,7 +32,7 @@ go
 --Table that represents a set of products such as product name, unit price, stock quantity etc.
 create table dbo.Products
 (
-	ProductID uniqueidentifier primary key,
+	ProductID int identity(1,1) primary key,
 	ProductName varchar(30) not null,
 	UnitPrice decimal(16,2),
 	QuantityInStock int default(0),

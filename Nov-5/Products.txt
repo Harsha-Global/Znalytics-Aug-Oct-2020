@@ -5,3 +5,20 @@ POST	api/products		Inserts a new product
 PUT	api/products/id		Updates an existing product
 DELETE	api/products/id		Deletes an existing product
 
+
+Unit: Products table
+Story for unit testing:
+	step 1: Clear the entire table
+	step 2: Insert product 1 (some details)
+	step 3: Insert product 2 (some details)
+	step 4: api/products: expected: 2 rows
+	step 5: api/products/validid: expected: 1 row
+	step 6: api/products/invalidid: expected: null
+	step 7: api/products?ProductName=existing: expected: one or more rows
+	step 8: api/products?ProductName=nonexisting: expected: 0 rows
+	step 9: POST api/products: expected: the same row including id
+	step 10: api/products: expected: 3 rows
+	step 11: PUT api/products/existingid: the same row
+	step 12: PUT api/products/nonexistingid: null
+	step 13: DELETE api/products/existingid: 1
+	step 14: DELETE api/products/nonexistingid: 0
