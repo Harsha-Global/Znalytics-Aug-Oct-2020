@@ -1,0 +1,48 @@
+﻿@model BasicMvcApp.Models.Product
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script src="~/Scripts/umd/popper.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+</head>
+<body>
+    @{
+        DateTime dt = DateTime.Now;
+        string s = dt.ToLongDateString();
+    }
+
+    <div class="container-fluid">
+        <table class="table table-bordered">
+        <caption>@s</caption>
+        <tbody>
+            <tr>
+                <td>Product ID</td>
+                <td>@Model.ProductID</td>
+            </tr>
+
+            <tr>
+                <td>Product Name</td>
+                <td>@Model.ProductName</td>
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>@Model.Price</td>
+            </tr>
+
+            <tr>
+                <td>Quantity</td>
+                <td>@Model.Quantity</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
+</body>
+</html>

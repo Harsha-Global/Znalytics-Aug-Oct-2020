@@ -1,0 +1,27 @@
+class Person
+{
+}
+
+class Customer : Person
+{
+}
+
+class Employee : Person
+{
+}
+
+class OtherClass
+{
+      public Person OtherMethod()
+      {
+             return new Person(); //object of parent class
+             return new Customer(); //object of child class
+             return new Employee(); //object of child class
+      }
+}
+
+
+
+
+
+Person p = new Customer(); //allowed
