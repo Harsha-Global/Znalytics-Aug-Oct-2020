@@ -1,0 +1,57 @@
+Layout View:
+	Views/Shared/LayoutView.cshtml
+
+- Page template
+- you can create multiple layout views.
+
+
+	Install-Package jQuery
+	Install-Package Popper.js
+	Install-Package Bootstrap
+	Install-Package Font-Awesome
+
+
+Browser --> request --> Controller -> View -> Layout View --> response will be sent to browser
+
+Sharing data from view to layout view:
+----------------------------------------------
+	View:
+		@{
+			ViewBag.variable = value;
+		}
+
+	Layout view:
+		@ViewBag.variable
+
+
+ViewBag = a temporary and dynamic object for data sharing.
+1. View -> Layout
+2. Controller -> View
+
+Sharing data from controller to view:
+-------------------------------------------
+	Controller:
+		ViewBag.variable = value;
+
+	View:
+		@ViewBag.variable
+
+
+message = "Hello";
+
+ViewBag is 'dynamic' type.
+ViewData is 'Dictionary' type.
+
+The life time of ViewData and ViewBag is "per-request".
+
+
+
+Code First Migrations:
+   - Automatically generates SQL statements (to create tables) and execute those SQL statements at Sql Server.
+
+
+Enable-Migrations -ContextType MvcApp.EntityFramework.MvcAppDatabaseDbContext
+Add-Migration Initial
+Update-Database
+
+[the last two commands can be repeated for each modification in the model class or Seed method]
