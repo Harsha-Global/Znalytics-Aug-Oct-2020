@@ -1,0 +1,70 @@
+﻿@model MvcApp.Models.Employee
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2 class="border-bottom pb-2">
+    <i class="fa fa-user-circle mr-1"></i>
+    Create Employee
+</h2>
+
+<div class="row">
+    <div class="col-lg-8">
+
+        <div class="form-group form-row">
+            @Html.LabelFor(temp => temp.EmpName, new { @class = "col-lg-4 col-form-label" })
+
+            <div class="col-lg-8">
+                @Html.TextBoxFor(temp => temp.EmpName,
+                new { @class = "form-control", placeholder = "Employee Name" })
+            </div>
+        </div>
+
+        <div class="form-group form-row">
+            @Html.LabelFor(temp => temp.Email, new { @class = "col-lg-4 col-form-label" })
+
+            <div class="col-lg-8">
+                @Html.TextBoxFor(temp => temp.Email,
+                new { @class = "form-control", placeholder = "Email" })
+            </div>
+        </div>
+
+        <div class="form-group form-row">
+            @Html.LabelFor(temp => temp.CTCPerHour, new { @class = "col-lg-4 col-form-label" })
+
+            <div class="col-lg-8">
+                @Html.TextBoxFor(temp => temp.CTCPerHour,
+                new { @class = "form-control", placeholder = "CTC per hour" })
+            </div>
+        </div>
+
+        <div class="form-group form-row">
+            @Html.LabelFor(temp => temp.DateOfJoining, new { @class = "col-lg-4 col-form-label" })
+
+            <div class="col-lg-8">
+                @Html.TextBoxFor(temp => temp.DateOfJoining,
+                new { @class = "form-control", placeholder = "Date of Joining", type = "date" })
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-right border-top pt-2">
+
+                <a href="@Url.Action("Index", "Employees")" class="btn btn-secondary">
+                    <i class="fa fa-arrow-circle-left mr-1"></i>
+                    Back to Employees
+                </a>
+
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-save mr-1"></i>
+                    Save
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+

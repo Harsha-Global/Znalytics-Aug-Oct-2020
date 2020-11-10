@@ -1,0 +1,42 @@
+﻿@model List<MvcApp.Models.Employee>
+
+@{
+    ViewBag.Title = "Employees";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    ViewBag.AppTitle = "eCommerce";
+}
+
+<h2>
+    Employees
+    <a href="@Url.Action("Create", "Employees")" class="btn btn-primary float-right mt-1">
+        <span class="fa fa-plus-circle"></span>
+        New Employee
+    </a>
+</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Email</th>
+            <th>CTC per Hour</th>
+            <th>Date of Joining</th>
+            <th class="text-muted">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmpName</td>
+                <td>@item.Email</td>
+                <td>@item.CTCPerHour</td>
+                <td>@item.DateOfJoining</td>
+                <td>
+                    <a href="@Url.Action("Details", "Employees", new { id = item.EmpID  })">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
