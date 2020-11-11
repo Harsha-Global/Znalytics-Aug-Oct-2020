@@ -1,0 +1,9 @@
+request 1 (GET) ->
+"Create" action of [HttpGet]
+"Create" view of "Employees" controller
+
+
+request 2 (POST) ->
+Automatic model binding
+Custom validations
+"Create" action of [HttpPost]
