@@ -53,6 +53,7 @@
                 <td>
                     <a href="@Url.Action("Details", "Employees", new { id = item.EmpID  })" class="btn btn-secondary btn-sm">Details</a>
                     <a href="@Url.Action("Edit", "Employees", new { id = item.EmpID  })" class="btn btn-info btn-sm">Edit</a>
+                    <a href="@Url.Action("Delete", "Employees", new { id = item.EmpID  })" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }

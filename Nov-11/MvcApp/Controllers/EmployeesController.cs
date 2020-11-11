@@ -168,7 +168,7 @@ namespace MvcApp.Controllers
         }
 
 
-        //POST:  /Employees/Delete: Executes when the user clicks on Save button
+        //POST:  /Employees/Delete: Executes when the user clicks on Delete button
         [HttpPost]
         public ActionResult Delete(Employee emp)
         {
