@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ecommerce-module">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angular JS App</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="angularscript.js"></script>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      ng-controller="navbar-controller"
+      class="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <a class="navbar-brand" href="#">{{appTitle}}</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar starts -->
+        <div class="col-lg-3" ng-controller="sidebar-controller">
+          <h4>Sidebar</h4>
+
+          <div class="list-group">
+            <a
+              ng-repeat="category in categories"
+              href="#"
+              class="list-group-item list-group-item-action"
+            >
+              {{category}}
+            </a>
+          </div>
+        </div>
+        <!-- Sidebar ends -->
+
+        <!-- MainContent starts -->
+        <div class="col-lg-9" ng-controller="maincontent-controller">
+          <h4>{{pageTitle}}</h4>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr ng-repeat="product in products">
+                <td>{{product.id}}</td>
+                <td>{{product.productName | uppercase}}</td>
+                <td>{{product.price | currency}}</td>
+                <td>
+                  {{product.quantity | quantity | uppercase}}
+
+                  <div class="btn-group">
+                    <button
+                      class="btn btn-sm btn-secondary"
+                      ng-click="addQuantity(product)"
+                    >
+                      +
+                    </button>
+
+                    <button
+                      class="btn btn-sm btn-secondary"
+                      ng-click="removeQuantity(product)"
+                    >
+                      -
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- MainContent ends -->
+      </div>
+    </div>
+  </body>
+</html>

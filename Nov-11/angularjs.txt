@@ -1,0 +1,29 @@
+2010:  AngularJS
+2015 : Angular
+
+Both goal:  To create single page apps (the page should never refresh)
+
+AngularJS Expression (like interpolation binding in angular):
+	{{expression}}
+
+AngularJS Modules:
+   - Building block of angular app
+   - Collection of controllers, models, views, services, providers, factories, filters & directives.
+
+MVC architecture:
+	- Model: data
+	- View:  html
+	- Controller: JS code to pass model to view.
+
+	1. Controller can call Model.
+	2. Controller can call View.
+	3. View can call Model.
+
+AngularJS uses MVC architecture (a.k.a. design pattern).
+
+
+model:
+
+
+{
+}
