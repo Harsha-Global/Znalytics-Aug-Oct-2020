@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="my-module">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AngularJS - Custom Directives Demo</title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="my-module.js"></script>
+    <script src="my-controller.js"></script>
+    <script src="textbox-directive.js"></script>
+  </head>
+  <body>
+    <div ng-controller="my-controller">
+      Name: <textbox name="personName"></textbox>
+      <!-- <p textbox name="personName"></p> -->
+    </div>
+  </body>
+</html>

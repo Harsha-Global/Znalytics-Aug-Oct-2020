@@ -1,0 +1,14 @@
+To make http requests in Angular:
+   HttpClient: predefined class
+
+To make http requests in AngularJS:
+   $http: predefined service
+
+
+2010 to 2015 : AngularJS
+2015 to 2020 : Angular
+
+
+<textbox>
+Hello
+</textbox>
