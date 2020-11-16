@@ -3,34 +3,69 @@
     <h3 class="display-4 p-2">Products</h3>
   </div>
 
-  <div class="col-12">
-    <div>
-      <select class="form-control" [(ngModel)]="sortBy">
-        <option value="">Please Select</option>
-        <option value="productName">Product Name</option>
-        <option value="price">Price</option>
-        <option value="quantity">Quantity</option>
-      </select>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          <a
+            href="#"
+            onclick="return false"
+            (click)="onColumnClick('productName')"
+          >
+            Product Name
 
-      {{ sortBy }}
-    </div>
+            <i
+              class="fa fa-sort-asc"
+              *ngIf="sortBy == 'productName' && sortOrder == 'ASC'"
+            ></i>
 
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Product Name</th>
-          <th>Price</th>
-          <th>Quantity</th>
-        </tr>
-      </thead>
+            <i
+              class="fa fa-sort-desc"
+              *ngIf="sortBy == 'productName' && sortOrder == 'DESC'"
+            ></i>
+          </a>
+        </th>
 
-      <tbody>
-        <tr *ngFor="let prod of products | sort: 'price':'DESC'">
-          <td>{{ prod.productName }}</td>
-          <td>{{ prod.price }}</td>
-          <td>{{ prod.quantity }}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+        <th>
+          <a href="#" onclick="return false" (click)="onColumnClick('price')"
+            >Price
+
+            <i
+              class="fa fa-sort-asc"
+              *ngIf="sortBy == 'price' && sortOrder == 'ASC'"
+            ></i>
+
+            <i
+              class="fa fa-sort-desc"
+              *ngIf="sortBy == 'price' && sortOrder == 'DESC'"
+            ></i>
+          </a>
+        </th>
+
+        <th>
+          <a href="#" onclick="return false" (click)="onColumnClick('quantity')"
+            >Quantity
+
+            <i
+              class="fa fa-sort-asc"
+              *ngIf="sortBy == 'quantity' && sortOrder == 'ASC'"
+            ></i>
+
+            <i
+              class="fa fa-sort-desc"
+              *ngIf="sortBy == 'quantity' && sortOrder == 'DESC'"
+            ></i>
+          </a>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let prod of products | sort: sortBy:sortOrder">
+        <td>{{ prod.productName }}</td>
+        <td>{{ prod.price }}</td>
+        <td>{{ prod.quantity }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

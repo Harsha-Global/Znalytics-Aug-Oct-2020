@@ -26,5 +26,17 @@ export class ProductsComponent {
         console.log(error);
       }
     );
+  } //end of ngOnInit
+
+  //Executes when the user clicks on any one column name
+  onColumnClick(columnName: string) {
+    this.sortBy = columnName;
+
+    //Switch from ASC to DESC; and vice versa
+    if (this.sortOrder == 'ASC') {
+      this.sortOrder = 'DESC';
+    } else {
+      this.sortOrder = 'ASC';
+    }
   }
 } //end of class
