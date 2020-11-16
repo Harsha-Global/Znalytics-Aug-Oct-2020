@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-12">
+    <h3 class="display-4 p-2">Products</h3>
+  </div>
+
+  <div class="col-12">
+    <div>
+      <select
+        class="form-control"
+        [(ngModel)]="sortBy"
+        (change)="sort(products)"
+      >
+        <option value="">Please Select</option>
+        <option value="productName">Product Name</option>
+        <option value="price">Price</option>
+        <option value="quantity">Quantity</option>
+      </select>
+
+      {{ sortBy }}
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let prod of products">
+          <td>{{ prod.productName }}</td>
+          <td>{{ prod.price }}</td>
+          <td>{{ prod.quantity }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
