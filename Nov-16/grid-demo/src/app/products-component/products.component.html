@@ -5,11 +5,7 @@
 
   <div class="col-12">
     <div>
-      <select
-        class="form-control"
-        [(ngModel)]="sortBy"
-        (change)="sort(products)"
-      >
+      <select class="form-control" [(ngModel)]="sortBy">
         <option value="">Please Select</option>
         <option value="productName">Product Name</option>
         <option value="price">Price</option>
@@ -29,7 +25,7 @@
       </thead>
 
       <tbody>
-        <tr *ngFor="let prod of products">
+        <tr *ngFor="let prod of products | sort: 'price':'DESC'">
           <td>{{ prod.productName }}</td>
           <td>{{ prod.price }}</td>
           <td>{{ prod.quantity }}</td>
