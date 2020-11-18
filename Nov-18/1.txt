@@ -1,0 +1,34 @@
+noOfRows = 16
+pageSize = 5
+noOfPages = Math.ceil(noOfRows / pageSize)
+
+Example:
+    noOfPages = 4
+
+pages = [
+    { pageIndex: 0 },
+    { pageIndex: 1 },
+    { pageIndex: 2 },
+    { pageIndex: 3 }
+]
+
+
+for (let i = 0; i < pages.length; i++)
+{
+    if (page.pageIndex == currentPageIndex)
+    {
+       //active
+    }
+}
+
+
+
+(condition)? true : false
+
+
+
+if noOfPages is less than or equal to 5:
+    1 2 3 4 5
+
+if noOfPages is greater than 5:   Example: 10
+   Previous  1  2  ...  9  10   Next

@@ -1,0 +1,165 @@
+<div class="row">
+  <div class="col-12">
+    <h3 class="display-4 p-2">Products</h3>
+  </div>
+
+  <div class="col-12" style="min-height: 400px">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            <a
+              href="#"
+              onclick="return false"
+              (click)="onColumnClick('productName')"
+            >
+              Product Name
+
+              <i
+                class="fa fa-sort-asc"
+                *ngIf="sortBy == 'productName' && sortOrder == 'ASC'"
+              ></i>
+
+              <i
+                class="fa fa-sort-desc"
+                *ngIf="sortBy == 'productName' && sortOrder == 'DESC'"
+              ></i>
+            </a>
+          </th>
+
+          <th>
+            <a href="#" onclick="return false" (click)="onColumnClick('price')"
+              >Price
+
+              <i
+                class="fa fa-sort-asc"
+                *ngIf="sortBy == 'price' && sortOrder == 'ASC'"
+              ></i>
+
+              <i
+                class="fa fa-sort-desc"
+                *ngIf="sortBy == 'price' && sortOrder == 'DESC'"
+              ></i>
+            </a>
+          </th>
+
+          <th>
+            <a
+              href="#"
+              onclick="return false"
+              (click)="onColumnClick('quantity')"
+              >Quantity
+
+              <i
+                class="fa fa-sort-asc"
+                *ngIf="sortBy == 'quantity' && sortOrder == 'ASC'"
+              ></i>
+
+              <i
+                class="fa fa-sort-desc"
+                *ngIf="sortBy == 'quantity' && sortOrder == 'DESC'"
+              ></i>
+            </a>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr
+          *ngFor="
+            let prod of products
+              | sort: sortBy:sortOrder
+              | paging: pageSize:currentPageIndex
+          "
+        >
+          <td>{{ prod.productName }}</td>
+          <td>{{ prod.price }}</td>
+          <td>{{ prod.quantity }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col-12">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li
+          class="page-item"
+          (click)="
+            currentPageIndex =
+              currentPageIndex > 0 ? currentPageIndex - 1 : currentPageIndex
+          "
+        >
+          <a class="page-link" href="#" onclick="return false">Previous</a>
+        </li>
+
+        <!-- whenever you want a parent tag but don't want to change the layout -->
+        <ng-container *ngIf="pages.length <= 5">
+          <li
+            class="page-item"
+            *ngFor="let page of pages"
+            [ngClass]="{ active: page.pageIndex == currentPageIndex }"
+            (click)="currentPageIndex = page.pageIndex"
+          >
+            <a class="page-link" href="#" onclick="return false">{{
+              page.pageIndex + 1
+            }}</a>
+          </li>
+        </ng-container>
+
+        <!-- 1  2   .... 9  10 -->
+        <ng-container *ngIf="pages.length > 5">
+          <li
+            class="page-item"
+            (click)="currentPageIndex = 0"
+            [ngClass]="{ active: 0 == currentPageIndex }"
+          >
+            <a class="page-link" href="#" onclick="return false">1</a>
+          </li>
+
+          <li
+            class="page-item"
+            (click)="currentPageIndex = 1"
+            [ngClass]="{ active: 1 == currentPageIndex }"
+          >
+            <a class="page-link" href="#" onclick="return false">2</a>
+          </li>
+
+          <li>&nbsp;...&nbsp;</li>
+
+          <li
+            class="page-item"
+            (click)="currentPageIndex = pages.length - 2"
+            [ngClass]="{ active: pages.length - 2 == currentPageIndex }"
+          >
+            <a class="page-link" href="#" onclick="return false">{{
+              pages.length - 1
+            }}</a>
+          </li>
+
+          <li
+            class="page-item"
+            (click)="currentPageIndex = pages.length - 1"
+            [ngClass]="{ active: pages.length - 1 == currentPageIndex }"
+          >
+            <a class="page-link" href="#" onclick="return false">{{
+              pages.length
+            }}</a>
+          </li>
+        </ng-container>
+
+        <li
+          class="page-item"
+          (click)="
+            currentPageIndex =
+              currentPageIndex < pages.length - 1
+                ? currentPageIndex + 1
+                : currentPageIndex
+          "
+        >
+          <a class="page-link" onclick="return false" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
