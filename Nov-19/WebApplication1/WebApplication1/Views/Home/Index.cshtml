@@ -1,0 +1,31 @@
+﻿@model WebApplication1.ServiceReference1.Product
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Product</h1>
+    <div> 
+        <table>
+            <tr>
+                <td>Product ID</td>
+                <td>@Model.ProductID</td>
+            </tr>
+
+            <tr>
+                <td>Product Name</td>
+                <td>@Model.ProductName</td>
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>@Model.Price</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\WebAPI\WcfService1\WcfService1\bin\WcfService1.dll.config
+C:\WebAPI\WcfService1\WcfService1\bin\WcfService1.dll
+C:\WebAPI\WcfService1\WcfService1\bin\WcfService1.pdb
+C:\WebAPI\WcfService1\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
+C:\WebAPI\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\WebAPI\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+C:\WebAPI\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
