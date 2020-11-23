@@ -1,0 +1,19 @@
+//Create a method that returns customer name (as return) and email with tuple
+
+publc  string GetCustomerDetails(string  name,out string email){
+email="abc@gmail.com";
+return name;
+}
+
+
+publc  string GetCustomerDetails(string name, string email){
+Tuple<string name,string email>customer=Tuple.create("abc","abc@gmail.com")
+email="abc@gmail.com";
+return email;
+} 
+    public tuple get()
+	{
+var  tuple =Tuple.Create<string,string>("ramya","ramya@gmail.com")
+	   retunrn  tuple;
+	   }
+	   

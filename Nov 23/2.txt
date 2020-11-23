@@ -1,0 +1,47 @@
+int[ ]   a = new int[] { 60, 70, 30, 40 };
+
+//copy all the numbers that are greater than or equal to 40, into another array called 'b' - using for loop
+
+int arraySizeOfb=0;
+int[ ] b;
+for(int i=0;i<a.length;i++)
+	{
+		if(a[i]>=40)
+		{
+			arraySizeOfb++;
+		}
+}
+b=new int[arraySizeOfb];
+int j=0;
+for(int i=0;i<a.length;i++)
+{
+	if(a[i]>=40)
+	{
+		b[j]=a[i];
+		j++;
+	
+	}
+}
+
+--------------------------------------------------------------
+
+
+
+
+
+int[ ]   a = new int[] { 60, 70, 30, 40 };
+
+//copy all the numbers that are greater than or equal to 40, into another array called 'b' - using for loop
+
+int[ ] b;
+List<int> matchingElements = new List<int>();
+
+for(int i=0;i<a.Length;i++)
+{
+	if(a[i]>=40)
+	{
+		matchingElements.Add(a[i]);
+	}
+}
+
+b = matchingElements.ToArray();

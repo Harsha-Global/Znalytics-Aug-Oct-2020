@@ -1,0 +1,10 @@
+How to create event and subscribe to the event:
+
+public delegate returntype delegatetypename(arg 1,arg 2,...)
+
+public returntype methodname(arg)
+
+public event delegatetypename eventname;
+
+
+eventname+=methodname;

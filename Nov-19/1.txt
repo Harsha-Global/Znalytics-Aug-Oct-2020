@@ -1,0 +1,5 @@
+Address: http://localhost:51871/ProductsService.svc
+Binding: BasicHttpBinding
+Contract (Service Contract): Company.IProductsService
+
+ABC of WCF.
