@@ -1,0 +1,35 @@
+public College.StudentMgmt.Student GetDetails()
+{
+}
+
+
+
+
+College.StudentMgmt.Student s = GetDetails();
+
+var s = GetDetails();
+
+
+-----------------------------------------
+
+List<Employee> employees = db.Employees.ToList();
+var employees = db.Employees.ToList();
+
+-------------------------------------------------------
+
+
+dynamic:
+dynamic mydata;
+
+if (condition)
+{
+    mydata = GetAllEmployees();
+}
+else
+{
+    mydata = GetAllCustomers();
+}
+
+
+
+mydata[0].EmployeeID
