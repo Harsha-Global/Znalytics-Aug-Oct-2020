@@ -1,0 +1,61 @@
+Way 1) We have a set of departments; and we have a set of employees; we have relation between Department.DeptNo and Employee.DeptNo
+
+Way 2) A department has a set of employees
+
+class Department
+{
+    public int DeptNo { get; set; }
+    public string DeptName { get; set; }
+    public List<Employee> Employees { get; set; }
+}
+
+class Employee
+{
+    public int EmpID { get; set; }
+    public string EmpName { get; set; }
+}
+
+Department d1 = new Department() { DeptNo = 10, DeptName = "Accounting", Employees = 
+	new List<Employee>() {
+		new Emplooye() EmpID = 1, EmpName = "Scott" },
+	                   new Employee() { EmpID = 2, EmpName = "Allen" }
+	}
+      };
+
+Department d2 = new Department() { DeptNo = 10, DeptName = "Accounting", Employees = 
+	new List<Employee>() {
+		new Emplooye() EmpID = 1, EmpName = "Scott" },
+	                   new Employee() { EmpID = 2, EmpName = "Allen" }
+	}
+      };
+
+d1.Employees[0].EmpName
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Way 3) An employee works under a department
+
+class Department
+{
+    public int DeptNo { get; set; }
+    public string DeptName { get; set; }
+}
+
+class Employee
+{
+    public int EmpID { get; set; }
+    public string EmpName { get; set; }
+    public Department  Dept { get; set; }
+}
+
+List<Employee> employees = new List<Employee>()
+{
+    new Employee() { EmpID = 1, EmpName = "abc", Dept = new Department() { DeptNo = 10, DeptName = "Accounting" } },
+    new Employee() { EmpID = 2, EmpName = "xyz", Dept = new Department() { DeptNo = 10, DeptName = "Accounting" } },
+    new Employee() { EmpID = 3, EmpName = "xyz", Dept = new Department() { DeptNo = 20, DeptName = "R&D" } },
+}
+
+

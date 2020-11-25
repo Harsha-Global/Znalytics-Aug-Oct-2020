@@ -1,0 +1,14 @@
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.BusinessLogicLayer.dll
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.BusinessLogicLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.DataAccessLayer.dll
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.DataAccessLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.DataAccessLayer.dll.config
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\obj\Debug\eCommerce.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\obj\Debug\eCommerce.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\obj\Debug\eCommerce.BusinessLogicLayer.csproj.CopyComplete
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\obj\Debug\eCommerce.BusinessLogicLayer.dll
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\obj\Debug\eCommerce.BusinessLogicLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.ViewModels.dll
+C:\WebAPI\eCommerce\eCommerce.BusinessLogicLayer\bin\Debug\eCommerce.ViewModels.pdb

@@ -1,0 +1,11 @@
+Enable-Migrations -ContextTypeName eCommerce.DataAccessLayer.eCommerceDbContext -ProjectName eCommerce.DataAccessLayer
+Add-Migration Initial
+[make sure you have added mock data in seed method]
+Add-Migration Seed
+Update-Database
+
+Install-Package Unity.WebAPI		 [for asp.net web api projects]
+
+
+Install-Package Unity.Mvc		 [for asp.net mvc projects]
+
