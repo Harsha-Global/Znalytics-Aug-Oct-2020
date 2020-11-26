@@ -1,0 +1,40 @@
+Asynchronous validation in reactive forms
+
+Built in validations
+	required - mandatory
+	pattern - format
+	min - minimum value
+	max - maximum value
+	minLength
+	maxLength
+	email
+
+Custom validations
+	our own validations - specific condition based
+	our own validations - depends on db
+
+
+Angular material:
+-----------------------------------------
+
+ng new angular-material-app --routing --style=scss
+
+cd angular-material-app
+
+npm install jquery popper.js bootstrap --save
+
+ng add @angular/material
+
+Choose a prebuilt theme name, or "custom" for a custom theme: (Use arrow keys)
+Indigo/Pink
+
+Set up global Angular Material typography styles? (y/N)
+yes
+
+Set up browser animations for Angular Material?
+yes
+
+[it makes some changes to index.html, styles.scss, app.module.ts files]
+
+
+ng serve --open

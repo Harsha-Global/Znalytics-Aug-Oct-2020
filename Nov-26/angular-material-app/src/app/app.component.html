@@ -1,0 +1,90 @@
+<div class="container-fluid">
+  <form>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <h4 class="py-2 border-bottom">Registration Form</h4>
+
+        <!-- first name starts -->
+        <div>
+          <mat-form-field class="example-form-field">
+            <mat-label>First Name</mat-label>
+            <input
+              matInput
+              type="text"
+              [(ngModel)]="firstName"
+              name="firstname"
+              class="my-textbox"
+            />
+            <button
+              mat-button
+              *ngIf="firstName"
+              matSuffix
+              mat-icon-button
+              aria-label="Clear"
+              (click)="firstName = ''"
+            >
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <!-- first name ends -->
+
+        <!-- last name starts -->
+        <div>
+          <mat-form-field class="example-form-field">
+            <mat-label>Last Name</mat-label>
+            <input
+              matInput
+              type="text"
+              [(ngModel)]="lastName"
+              name="lastname"
+              class="my-textbox"
+            />
+            <button
+              mat-button
+              *ngIf="lastName"
+              matSuffix
+              mat-icon-button
+              aria-label="Clear"
+              (click)="lastName = ''"
+            >
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <!-- last name ends -->
+
+        <!-- news letters checkbox starts -->
+        <div>
+          <mat-checkbox
+            [(ngModel)]="receiveNewsLetters"
+            name="receivenewsletters"
+            >Receive News Letters</mat-checkbox
+          >
+        </div>
+        <!-- news letters checkbox ends -->
+
+        <!-- city dropdownlist starts -->
+        <div>
+          <mat-form-field appearance="fill">
+            <mat-label>City</mat-label>
+            <mat-select [(ngModel)]="city" name="city">
+              <mat-option *ngFor="let city of cities" [value]="city">
+                {{ city }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <!-- city dropdownlist ends -->
+
+        <div class="border-top mt-2 pt-2">
+          <button mat-stroked-button color="primary" class="m-1">OK</button>
+          <button mat-stroked-button color="warn" class="m-1">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
