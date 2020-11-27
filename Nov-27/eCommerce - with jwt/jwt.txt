@@ -1,0 +1,185 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjNzFjY2JkMy0wNGU4LTRiNTUtYTQzYy1mNjY0ZmIyNzZiNDIiLCJ2YWxpZCI6IjEiLCJVc2VyaWQiOiIxY2RjODg5Yy05MGY5LTRmMDgtYjI2YS01YWZkOWY2ZmE4YTgiLCJ0cyI6IjE2MDY0NjAwNTgiLCJleHAiOjE2MDY1NDY0NzMsImlzcyI6Imh0dHA6Ly93d3cubXlzaXRlLmNvbSIsImF1ZCI6Imh0dHA6Ly93d3cubXlzaXRlLmNvbSJ9.z8UK_Pk8ZCZ5k0hS4EwzDKcGUL8VsMU4nioBIcglOHo
+
+
+Install-Package System.IdentityModel.Tokens.Jwt
+Install-Package Microsoft.Owin.Security.Jwt
+Install-Package Microsoft.AspNet.WebApi.Owin
+Install-Package Microsoft.Owin.Host.SystemWeb
+
+
+Startup.cs
+-----------
+using Microsoft.Owin;
+using Owin;
+using System;
+using System.Threading.Tasks;
+//add following
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.Owin.Security.Jwt;
+using System.Text;
+
+[assembly: OwinStartup(typeof(eCommerce.WebAPI.Startup))]
+
+namespace eCommerce.WebAPI
+{
+    public class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            app.UseJwtBearerAuthentication(
+                new JwtBearerAuthenticationOptions
+                {
+                    AuthenticationMode = Microsoft.Owin.Security.AuthenticationMode.Active,
+                    TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = "http://mysite.com", //some string, normally web url,  
+                        ValidAudience = "http://mysite.com",
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("my_secret_key_12345"))
+                    }
+                });
+        }
+    }
+}
+
+
+
+WebApiConfig.cs
+--------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.Http;
+//add following
+using Microsoft.Owin.Security.OAuth;
+
+namespace eCommerce.WebAPI
+{
+    public static class WebApiConfig
+    {
+        public static void Register(HttpConfiguration config)
+        {
+            // Web API configuration and services
+            config.EnableCors();
+            config.SuppressDefaultHostAuthentication();
+            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            // Web API routes
+            config.MapHttpAttributeRoutes();
+
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+        }
+    }
+}
+
+
+
+AccountController.cs
+------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+
+namespace eCommerce.WebAPI.Controllers
+{
+    public class AccountController : ApiController
+    {
+        [CustomerActionFilter]
+        public void Post(UserViewModel user)
+        {
+            if (user.Username == "harsha" && user.Password == "harsha123")
+            {
+                Request.Properties.Add("Userid", Guid.NewGuid());
+                Request.Properties.Add("Username", "harsha");
+            }
+            else
+            {
+                throw new HttpResponseException(HttpStatusCode.Unauthorized);
+            }
+        }
+    }
+}
+
+
+
+CustomActionFilter.cs
+--------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+//add following
+using System.Web.Http.Filters;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+
+namespace eCommerce.WebAPI
+{
+    public class CustomerActionFilter: ActionFilterAttribute
+    {
+        public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+        {
+            if (actionExecutedContext.Request.Properties["Userid"] != null)
+            {
+                var jwt = GetToken(actionExecutedContext.Request.Properties["Userid"], actionExecutedContext.Request.Properties["Username"]);
+                actionExecutedContext.Response.Headers.Add("token", jwt);
+            }
+        }
+
+        public string GetToken(object userid, object username)
+        {
+            string key = "my_secret_key_12345"; //Secret key which will be used later during validation    
+            var issuer = "http://mysite.com";  //normally this will be your site URL    
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            //Create a List of Claims, Keep claims name short    
+            var permClaims = new List<Claim>();
+            permClaims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+            permClaims.Add(new Claim("valid", "1"));
+            permClaims.Add(new Claim("userid", Convert.ToString(userid)));
+            permClaims.Add(new Claim("username", Convert.ToString(username)));
+
+            //Create Security Token object by giving required parameters    
+            var token = new JwtSecurityToken(issuer, //Issure    
+                            issuer,  //Audience    
+                            permClaims,
+                            expires: DateTime.Now.AddDays(1),
+                            signingCredentials: credentials);
+            var jwt_token = new JwtSecurityTokenHandler().WriteToken(token);
+            return jwt_token;
+        }
+    }
+}
+
+
+
+UserViewModel.cs
+---------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace eCommerce.WebAPI
+{
+    public class UserViewModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
+

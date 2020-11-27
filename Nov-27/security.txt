@@ -1,0 +1,137 @@
+Security
+---------
+	1. Hash
+	2. Encryption
+	3. Base64
+	4. Digital Signature
+	5. Token
+
+----------------------------------------------------------------
+
+users table
+	userid		guid / int
+	username	harsha
+	password		harsha123 [hash]
+
+-----------------------------------------------------------------
+
+card no   1234 [Encryption]
+
+---------------------------------------------------------------------
+
+images [base64]
+
+-------------------------------------------------------------------
+
+tokens - application security
+	- user is logged in: create a token
+	- for each request: browser should submit same token to server
+	- log out: delete the token
+
+[digital signature]
+
+https: digital signatures: to make sure to verify the file / content is downloaded from a legit server.
+
+
+
+Hex: 16 digits =0 to 9 and a-f or A-F
+
+SHA 256 algorithm = 256-bit
+8 bits = 1 byte
+256 bits = 32-byte
+
+- Hash is NOT reversible.
+
+-------------------------------------------------------------------------
+
+
+registration --> email and password  --> BL: password --> passwordHash --> stored in db
+
+login --> email and password --> BL: password --> passwordHash --> DAL: where email == email && passwordHash == 'password' column
+
+--------------------------------------------------------------------------------
+
+hash(data)
+==> hash of the data
+
+---------------------------------------------------------------------------
+
+
+
+2. Encryption
+----------------
+   - reversible
+	- based on single key		:	Symmetric Encryption
+	- based private key / public key	:	Asymmetric Encryption [sending a chat message]
+
+     Goal:   The data should be accessible (can be opened) by only authorized person.
+
+
+	Harsha (sender) --> Hai (data) --> Surya (Receiver)
+	Goal: Sends wants to make sure the data is received by the receiver only.
+
+
+	sender: 	Private key:    rotjih069yj5069yj506yj9506y
+		Public key:      hpok56y095jk60uy9j560uy956dfghoj60
+
+	receiver: 	Private key:    kkh09y0569u607uk
+		Public key:      ggjg0jg09jy069y560y9j560y95609uyj
+
+scenario 1 (sender ensures that the data is decrypted by only receiver):
+	sender:		enc(data, public key of the receiver)  --> Ciphertext
+	receiver:		dec(Ciphertext, private key of the receiver) --> data
+
+
+scenario 2 (receiver ensures that the data is encrypted by only sender):
+	sender:		enc(data, private key of sender)  --> Ciphertext
+	receiver:		dec(Ciphertext, public key of sender) --> data
+
+
+digital signature = scenario 1 + scenario 2
+
+https
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+base 64 = dojgh490jy06j9yjth09jy056yj
+
+base64(data)  --> base64 string value
+
+can be reversed
+
+
+-----------------------------------------------------------------
+
+
+jwt(header, payload, secret) --> token = header.payload.signature
+
+
+
+-----------------------------------
+
+
+http response format
+HTTP1/1 200 OK
+key: value
+key: value
+token: yourtoken here
+response body
+
+
+server sends the token to browser as a part of response headers.
+
+----------------------------------------
+
+localStorage.mykey = token received from server
+
+----------------------------------------
+
+
+http request format
+POST http://www.website.com/api/customers HTTP1/1
+key: value
+key: value
+Authorization: Bearer yourtoken
+request body
+
+browser sends the token to server as a part of request headers.
