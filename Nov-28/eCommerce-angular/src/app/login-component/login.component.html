@@ -1,0 +1,23 @@
+<h1>Login</h1>
+<form [formGroup]="loginForm">
+  <div>
+    <input
+      type="text"
+      placeholder="Email"
+      formControlName="email"
+      class="form-control"
+    />
+  </div>
+  <div>
+    <input
+      type="password"
+      placeholder="Password"
+      formControlName="password"
+      class="form-control"
+    />
+  </div>
+</form>
+<div>
+  <button (click)="onLoginClick()">Login</button>
+</div>
+<span>{{ message }}</span>

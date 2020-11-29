@@ -1,0 +1,12 @@
+app
+
+1000 requests
+- each req is independent
+
+- if http interceptor is created, for all 1000 requests, the interceptor executes.
+
+	httpClient.get()   -> http interceptor --> actual request will be sent to server
+
+
+- only for registration, login requests - we have to give excemption for http interceptor.
+	- using HttpBackend

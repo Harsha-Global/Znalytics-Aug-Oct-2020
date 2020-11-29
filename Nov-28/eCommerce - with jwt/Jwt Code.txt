@@ -1,0 +1,266 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjNzFjY2JkMy0wNGU4LTRiNTUtYTQzYy1mNjY0ZmIyNzZiNDIiLCJ2YWxpZCI6IjEiLCJVc2VyaWQiOiIxY2RjODg5Yy05MGY5LTRmMDgtYjI2YS01YWZkOWY2ZmE4YTgiLCJ0cyI6IjE2MDY0NjAwNTgiLCJleHAiOjE2MDY1NDY0NzMsImlzcyI6Imh0dHA6Ly93d3cubXlzaXRlLmNvbSIsImF1ZCI6Imh0dHA6Ly93d3cubXlzaXRlLmNvbSJ9.z8UK_Pk8ZCZ5k0hS4EwzDKcGUL8VsMU4nioBIcglOHo
+
+
+Install-Package System.IdentityModel.Tokens.Jwt
+Install-Package Microsoft.Owin.Security.Jwt
+Install-Package Microsoft.AspNet.WebApi.Owin
+Install-Package Microsoft.Owin.Host.SystemWeb
+
+
+TokenActionFilter.cs
+----------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+//add following
+using System.Web.Http.Filters;
+using System.Web.Http.Controllers;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+
+namespace eCommerce.WebAPI
+{
+    public class TokenActionFilter : ActionFilterAttribute
+    {
+        //executes after the action method
+        public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+        {
+            //check if the user is valid or not
+            if (actionExecutedContext.Request.Properties["Userid"] != null)
+            {
+                //get details from request.properties which were added by the action method
+                object Userid = actionExecutedContext.Request.Properties["Userid"];
+                object Timestamp = actionExecutedContext.Request.Properties["Timestamp"];
+
+                //generate token
+                string tk = GetToken(Userid, Timestamp);
+
+                //add token to response header
+                actionExecutedContext.Response.Headers.Add("token", tk);
+                actionExecutedContext.Response.Headers.Add("Access-Control-Expose-Headers", "*");
+            }
+        }
+
+        public string GetToken(object Userid, object Timestamp)
+        {
+            //domain of the current app (can be dummy, for example)
+            string issuer = "http://www.mysite.com";
+
+            //app level secret
+            string secret = "my_secret_key_1234";
+
+            //string convert into byte[]
+            var securityKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(secret));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            //Create claims (for payload)
+            var claims = new List<Claim>() {
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("valid", "1"),
+                new Claim("Userid", Convert.ToString(Userid)),
+                new Claim("ts", Convert.ToString(Timestamp))
+            };
+
+            //generate actual token
+            JwtSecurityToken token = new JwtSecurityToken(issuer, issuer, claims, expires: DateTime.Now.AddDays(1), signingCredentials: credentials);
+            string jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return jwtToken;
+        }
+    }
+}
+
+
+
+AccountController.cs
+-------------------
+
+using eCommerce.BusinessLogicLayer;
+using eCommerce.DataAccessLayer;
+using eCommerce.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using System.Web.Http.Cors;
+
+namespace eCommerce.WebAPI.Controllers
+{
+    [EnableCors("http://localhost:4200", "*", "*")]
+    public class AccountController : ApiController
+    {
+        //private fields
+        private IUsersBusinessLogic usersBusinessLogic;
+
+        /// <summary>
+        /// Constructor executes when an object is created for the CustomersController
+        /// </summary>
+        public AccountController(IUsersBusinessLogic business)
+        {
+            usersBusinessLogic = business;
+        }
+
+        [Route("api/Account/Login")]
+        [TokenActionFilter]
+        public User Post(LoginViewModel loginViewModel)
+        {
+            User user = this.usersBusinessLogic.GetUserByEmailAndPassword(loginViewModel);
+            if (user != null)
+            {
+                //generate token
+                Request.Properties.Add("Userid", user.UserID);
+                //Request.Properties.Add("Username", user.FullName);
+                Request.Properties.Add("Timestamp", ((Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds));
+            }
+            else
+            {
+                //don't generate
+
+            }
+            return user;
+        }
+    }
+}
+
+
+
+Startup.cs
+------------
+
+using Microsoft.Owin;
+using Owin;
+using System;
+using System.Threading.Tasks;
+//add following
+using Microsoft.Owin.Security.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
+[assembly: OwinStartup(typeof(eCommerce.WebAPI.Startup))]
+
+namespace eCommerce.WebAPI
+{
+    public class Startup
+    {
+        //Executes once - when the app runs for the first time
+        public void Configuration(IAppBuilder app)
+        {
+            app.UseJwtBearerAuthentication(
+                new JwtBearerAuthenticationOptions() { 
+                    AuthenticationMode = Microsoft.Owin.Security.AuthenticationMode.Active,
+                    TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = "http://www.mysite.com",
+                        ValidateAudience = true,
+                        ValidAudience = "http://www.mysite.com",
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("my_secret_key_1234"))
+                    }
+            });
+        }
+    }
+}
+
+
+
+WebApiConfig.cs
+---------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.Http;
+//add following
+using Microsoft.Owin.Security.OAuth;
+
+namespace eCommerce.WebAPI
+{
+    public static class WebApiConfig
+    {
+        public static void Register(HttpConfiguration config)
+        {
+            // Web API configuration and services
+            config.EnableCors();
+            config.SuppressDefaultHostAuthentication();
+            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            // Web API routes
+            config.MapHttpAttributeRoutes();
+
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+        }
+    }
+}
+
+
+
+
+CustomersController.cs
+----------------------
+
+using eCommerce.BusinessLogicLayer;
+using eCommerce.WebAPI.DomainModels;
+using eCommerce.WebAPI.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using System.Web.Http.Cors;
+
+namespace eCommerce.WebAPI.Controllers
+{
+    /// <summary>
+    /// Contains methods to receive HTTP requests from the client for manipulation on "customers" table
+    /// </summary>
+    [EnableCors("http://localhost:4200", "*", "GET,POST")]
+    [Authorize]
+    public class CustomersController : ApiController
+    {
+        //private fields
+        private ICustomersBusinessLogic customersBusinessLogic;
+
+        /// <summary>
+        /// Constructor executes when an object is created for the CustomersController
+        /// </summary>
+        public CustomersController(ICustomersBusinessLogic bussiness)
+        {
+            customersBusinessLogic = bussiness;
+        }
+
+        //GET: /api/Customers
+        public List<CustomerViewModel> Get()
+        {
+            List<CustomerViewModel> customers = customersBusinessLogic.GetCustomers();
+            return customers;
+        }
+
+        //GET: /api/Customers?customerName=abc
+        public CustomerViewModel Get(string customerName)
+        {
+            CustomerViewModel customerVM = customersBusinessLogic.GetCustomerByCustomerName(customerName);
+            return customerVM;
+        }
+
+        //POST: /api/Customers
+        public CustomerViewModel Post(InsertCustomerViewModel customerViewModel)
+        {
+            CustomerViewModel customerAfterInsert = customersBusinessLogic.InsertCustomer(customerViewModel);
+            return customerAfterInsert;
+        }
+    }
+}
+
+
+

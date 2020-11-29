@@ -1,0 +1,199 @@
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.WebAPI.dll.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.WebAPI.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.WebAPI.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csc.exe
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csc.exe.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csc.rsp
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csi.exe
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csi.exe.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\csi.rsp
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.AppContext.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Console.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Net.Http.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Net.Sockets.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\vbc.exe
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\vbc.exe.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\vbc.rsp
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.BusinessLogicLayer.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\EntityFramework.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Newtonsoft.Json.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.BusinessLogicLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.dll.config
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\EntityFramework.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Newtonsoft.Json.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csprojAssemblyReference.cache
+C:\WebAPI\eCommerce\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csproj.CoreCompileInputs.cache
+C:\WebAPI\eCommerce\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csproj.CopyComplete
+C:\WebAPI\eCommerce\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.ViewModels.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\eCommerce.ViewModels.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Unity.Abstractions.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Unity.Container.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Unity.WebApi.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Unity.Abstractions.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\Unity.Container.pdb
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Cors.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.Cors.dll
+C:\WebAPI\eCommerce\eCommerce.WebAPI\bin\System.Web.Http.Cors.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.WebAPI.dll.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.WebAPI.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.WebAPI.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csc.exe
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csc.exe.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csc.rsp
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csi.exe
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csi.exe.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\csi.rsp
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.AppContext.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Console.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Net.Http.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Net.Sockets.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\vbc.exe
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\vbc.exe.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\vbc.rsp
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.BusinessLogicLayer.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.ViewModels.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\EntityFramework.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.Logging.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.Tokens.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.Jwt.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Newtonsoft.Json.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Owin.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Cors.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.Cors.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.Owin.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Unity.Abstractions.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Unity.Container.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Unity.WebApi.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.BusinessLogicLayer.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.DataAccessLayer.dll.config
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\eCommerce.ViewModels.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\EntityFramework.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.Logging.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.IdentityModel.Tokens.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.Jwt.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.Cors.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.Owin.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Unity.Abstractions.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Unity.Container.pdb
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Newtonsoft.Json.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csprojAssemblyReference.cache
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csproj.CoreCompileInputs.cache
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.csproj.CopyComplete
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.dll
+C:\WebAPI\eCommerce - with jwt\eCommerce.WebAPI\obj\Debug\eCommerce.WebAPI.pdb

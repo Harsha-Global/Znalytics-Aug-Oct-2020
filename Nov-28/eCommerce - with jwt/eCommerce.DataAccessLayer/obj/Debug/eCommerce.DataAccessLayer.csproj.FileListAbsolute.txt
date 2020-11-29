@@ -1,0 +1,16 @@
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\eCommerce.DataAccessLayer.dll.config
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\eCommerce.DataAccessLayer.dll
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\eCommerce.DataAccessLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.csprojAssemblyReference.cache
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.csproj.CopyComplete
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.dll
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.pdb
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.Migrations.Initial.resources
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.csproj.GenerateResource.cache
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.Migrations.Seed2.resources
+C:\WebAPI\eCommerce\eCommerce.DataAccessLayer\obj\Debug\eCommerce.DataAccessLayer.Migrations.Users.resources

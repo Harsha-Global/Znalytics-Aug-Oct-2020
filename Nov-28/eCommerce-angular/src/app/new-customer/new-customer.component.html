@@ -1,0 +1,65 @@
+<h4>New Customer</h4>
+<form [formGroup]="newForm" (submit)="onSaveClick()">
+  <!-- customername starts -->
+  <div>
+    <div>
+      <label for="CustomerName">Customer Name:</label>
+    </div>
+
+    <div>
+      <input type="text" id="CustomerName" formControlName="CustomerName" />
+
+      <span
+        style="color: red"
+        *ngIf="
+          newForm.get('CustomerName').invalid &&
+          newForm.get('CustomerName').touched &&
+          newForm.get('CustomerName').errors.required
+        "
+        >Customer Name can't be empty</span
+      >
+
+      <span
+        style="color: red"
+        *ngIf="
+          newForm.get('CustomerName').invalid &&
+          newForm.get('CustomerName').touched &&
+          newForm.get('CustomerName').errors.duplicate
+        "
+        >Customer Name can't be duplicate</span
+      >
+    </div>
+  </div>
+  <!-- customername ends -->
+
+  <!-- customername starts -->
+  <div>
+    <div>
+      <label for="DateOfJoining">Date of Joining:</label>
+    </div>
+
+    <div>
+      <input type="date" id="DateOfJoining" formControlName="DateOfJoining" />
+
+      <span
+        style="color: red"
+        *ngIf="
+          newForm.get('DateOfJoining').invalid &&
+          newForm.get('DateOfJoining').touched &&
+          newForm.get('DateOfJoining').errors.mindate
+        "
+        >Date of joining should be a date after Jan 01 2000</span
+      >
+    </div>
+  </div>
+  <!-- customername ends -->
+
+  <div>
+    <button type="submit">Save</button>
+    <button type="button" (click)="onTest()">Test</button>
+  </div>
+
+  <div>
+    {{ message }}
+  </div>
+</form>
